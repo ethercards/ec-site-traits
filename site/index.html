@@ -1,0 +1,34 @@
+---
+layout: base
+---
+
+<div class="container">
+   
+        <div class="markdown">
+            <h2 class="text-center">Traits</h2>
+            <div class="row">
+
+              {% for trait in site.traits %}
+  
+              <div class="col-md-4 trait-container mb-4">
+                <div class="trait p-3">
+                  <img style="display:block; margin: 5px auto; max-height: 48px" src="{{base}}/assets/images/trait-icons/{{trait.image}}" />
+                  <h4 class="text-center">{{trait.name}}</h4>
+                  <p class="summary">{{trait.summary}}</p>
+                  <p class="text-right">
+
+                    <a href={{trait.url}}>MORE</a>
+                  </p>
+                </div>
+
+              </div>
+  
+  
+              {% endfor %}
+            </div>
+
+            
+    
+    </div>
+  </div>
+

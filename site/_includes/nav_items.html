@@ -1,0 +1,18 @@
+{% for item in site.data.docs-navigation %}
+{% if item.basepath != '' %}
+{% assign basepath = item.basepath | append: "/" %}
+{% endif %}
+<li class="nav-item">
+  <a class="nav-link js-scroll-trigger" 
+    {% if item.url%}
+    href="{{item.url}}"
+      {% if item.newTab %}
+      target="_blank"
+      {% endif %}
+    {% else %}
+      href="{{basepath}}{{ item.path }}"
+    {% endif %}
+    >{{ item.name }}</a
+  >
+</li>
+{% endfor %}

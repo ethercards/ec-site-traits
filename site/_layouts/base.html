@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ether Cards Traits</title>
+    <link
+      rel="icon"
+      href="{{base}}/assets/images/favicon.png?v=2"
+      type="image/png"
+      sizes="16x16"
+    />
+    <meta
+      name="description"
+      content="Ether Cards is a platform that provides tools for gamifying and supercharging your NFTs."
+    />
+    <meta name="keywords" content="EtherCards, NFT, Raffle, Bingo, Tickets, Puzzles" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ether Cards is a platform that provides tools for gamifying and supercharging your NFTs.">
+    <meta property="og:image" content="https://ether.cards/images/overlay-card.png">
+    
+    <link
+      href="{{base}}/assets/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900%7COpen+Sans:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+    <link
+      href="{{base}}/assets/css/stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="{{base}}/assets/css/custom.css?v=2"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="{{base}}/assets/css/nft.css?v=2"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/" />
+    {% endif %}
+  </head>
+  <body>
+    <div id="main" class="main-content">
+      {% include navigation.html %} {{content}}
+    </div>
+
+    <!-- The Modal -->
+    <div id="image-modal" class="modal">
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+      <!-- Modal Content (The Image) -->
+      <img id="modal-content" class="modal-content" />
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+    <!-- Jquery and Js Plugins -->
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="{{base}}/assets/js/jquery-2.1.1.js"></script>
+    <script src="{{base}}/assets/js/popper.min.js"></script>
+    <script src="{{base}}/assets/js/bootstrap.min.js"></script>
+    <script src="{{base}}/assets/js/jquery.validate.min.js"></script>
+    <script src="{{base}}/assets/js/plugins.js"></script>
+    <script src="{{base}}/assets/js/cssimportant.js"></script>
+    <script src="{{base}}/assets/js/custom.js?v=2"></script>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="footer-container" style="text-align: center; padding: 30px 15px">
+        <div id="copyright">
+          <p class="c-symbol">©</p>
+          <p>2021 Ether.cards All Rights Reserved</p>
+        </div>
+
+        <div id="contactUs">
+          <p>
+            Contact Us
+          </p>
+          <a href="https://discord.com/invite/mBwauRSJNW" target="_blank"
+            ><img src="assets/images/discord.png" alt="discord"
+          /></a>
+          <a href="https://www.reddit.com/r/Ether_Cards/" target="_blank"
+            ><img src="assets/images/reddit.png" alt="reddit"
+          /></a>
+          <a href="https://twitter.com/ether_cards" target="_blank"
+            ><img src="assets/images/twitter.png" alt="twitter"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,58 @@
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg fixed-top effect-main">
+  <div class="container">
+    <a class="navbar-brand" href="https://ether.cards/">
+      <img style="max-height: 40px" alt="st-logo" src="{{base}}/assets/images/logo_white.png" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-dark navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"  style="place-content: flex-end;">
+      <ul class="navbar-nav navbar-center">
+        <li class="nav-item">
+          <a
+            class="nav-link js-scroll-trigger"
+            href="http://ether.cards/"
+            >home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://sale.ether.cards/wallet">wallet</a>
+        </li>
+        {% include nav_artists_dropdown.html %}
+        <li class="nav-item">
+          <a
+            class="nav-link js-scroll-trigger"
+            href="https://docs.ether.cards/team.html"
+            >team</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link js-scroll-trigger"
+            href="https://docs.ether.cards/faq.html"
+            >faq</a
+          >
+        </li>
+        {% include nav_docs_dropdown.html %}
+        <li class="nav-item">
+          <a
+            class="nav-link js-scroll-trigger"
+            href="https://blog.ether.cards/"
+            >blog</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
