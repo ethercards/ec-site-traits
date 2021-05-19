@@ -1,5 +1,5 @@
 ---
-id: 123
+trait_id: 123
 name: Unstable
 image: PLACEHOLDER.png
 summary: Every time this card changes wallets, one of the Randomized Edition Traits are rerolled

@@ -1,5 +1,5 @@
 ---
-id: 110
+trait_id: 110
 name: 50% Discount
 image: discount-50.png
 summary: Provides a one-time 50% discount to the cardholder for any service on the Ether Cards gamification platform.

@@ -1,5 +1,5 @@
 ---
-id: 130
+trait_id: 130
 name: Glittery
 image: PLACEHOLDER.png
 summary: Provides a shiny or animated overlay to the existing card

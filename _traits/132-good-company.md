@@ -1,5 +1,5 @@
 ---
-id: 132
+trait_id: 132
 name: Good Company
 image: PLACEHOLDER.png
 summary: Allows the cardholder to burn this Trait in exchange for extra card from the vault (randomly selected)

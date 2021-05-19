@@ -1,5 +1,5 @@
 ---
-id: 105
+trait_id: 105
 name: Redeemable
 image: PLACEHOLDER.png
 summary: Provides the cardholder with the ability to redeem a physical item

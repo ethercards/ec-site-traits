@@ -1,5 +1,5 @@
 ---
-id: 121
+trait_id: 121
 name: Golden Goose
 image: golden-goose.png
 summary: Drops a Blind Bag to the cardholder every time Ether Cards holds a Blind Bag event.

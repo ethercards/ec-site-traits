@@ -1,5 +1,5 @@
 ---
-id: 115
+trait_id: 115
 name: Lucky Reroll
 image: PLACEHOLDER.png
 summary: Allows the cardholder to reroll the card’s Randomized Edition Traits with the same chances as an OG.

@@ -1,5 +1,5 @@
 ---
-id: 118
+trait_id: 118
 name: Fluid
 image: PLACEHOLDER.png
 summary: Allows the cardholder to reroll card layers (and potentially Traits) once a month.

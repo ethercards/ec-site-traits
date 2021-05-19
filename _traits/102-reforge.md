@@ -1,5 +1,5 @@
 ---
-id: 102
+trait_id: 102
 name: Reforge
 image: reforge.png
 summary: One-time ability to re-randomize any (or all) selected layers of the card’s accidental art image.

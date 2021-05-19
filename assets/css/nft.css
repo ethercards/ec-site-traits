@@ -7,11 +7,12 @@
     white-space: pre-wrap;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
   }
   
   .btn-outline.btn-peach{
     background: none ;
-    color:var(--primary) !important;
+    color:white !important;
   }
   .text-peach{
     color:var(--primary) !important;

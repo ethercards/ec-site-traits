@@ -1,5 +1,5 @@
 ---
-id: 128
+trait_id: 128
 name: Gravity
 image: gravity.png
 summary: A card with the Gravity Trait attracts cards that are sacrificed in the Forge and other items that are floating around the Ether Cards universe. A randomized function determines the trajectory of the Gravity trait, and if it comes close enough to an item, it falls into your card. As your card attracts more items, its mass grows and the force of its Gravity becomes stronger. The goal is to evolve your Gravity card into a supermassive black hole that sucks up more and more with its irresistible force.

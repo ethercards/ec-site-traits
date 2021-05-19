@@ -1,5 +1,5 @@
 ---
-id: 127
+trait_id: 127
 name: Merch
 image: PLACEHOLDER.png
 summary: Allows the cardholder to burn the Trait to redeem special Ether Cards merchandise like hoodies, etc. (Shipping fees apply)

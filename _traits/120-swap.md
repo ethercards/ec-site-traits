@@ -1,5 +1,5 @@
 ---
-id: 120
+trait_id: 120
 name: Swap
 image: swap.png
 summary: Provides the cardholder with the option to replace this card with a randomly selected card from the vault of the same type. Only while vault cards are available.

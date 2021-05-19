@@ -1,5 +1,5 @@
 ---
-id: 104
+trait_id: 104
 name: Art Drop
 image: PLACEHOLDER.png
 summary: Provides the cardholder with free NFT art drops from Ether Cards artists.

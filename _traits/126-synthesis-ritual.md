@@ -1,5 +1,5 @@
 ---
-id: 126
+trait_id: 126
 name: Synthesis Ritual
 image: PLACEHOLDER.png
 summary: Uses the grid to create a forgeable layer set. More details TBA

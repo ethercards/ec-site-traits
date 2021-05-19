@@ -1,5 +1,5 @@
 ---
-id: 129
+trait_id: 129
 name: New Commons
 image: PLACEHOLDER.png
 summary: Rerolls “common” layers on the card’s accidental artwork(s), providing the cardholder with two options to choose from for each “common” layer rerolled.

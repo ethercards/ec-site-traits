@@ -6,19 +6,39 @@ layout: base
    
         <div class="markdown">
             <h2 class="text-center">Traits</h2>
+
+            <p>Many of these TraitEther Cards NFTs contain a large variety of Traits which provide cardholders benefits for both the digital and physical world. Traits can be broken up into three categories: Limited Edition, Random Edition, and Conditional Traits.</p>
+            <p>Limited Edition Traits are the most valuable and powerful Traits, in as much as they will never expire and will never be offered again in the same capacity. Users can select which Trait(s) they would like to assign to their Limited Trait Slots. Founder Cards have one slot, Alphas have two, and OGs have three. Most Limited Edition Traits will have the ability to level up.</p>
+            <p>Random Edition Traits vary in their benefits and value, and are assigned randomly to cards. Some cards will have lots of these Traits, while others may only contain one or in some rare cases, none.</p>
+            <p>Conditional Traits generally are set in their value and are only applied to cards that meet the conditional requirements.</p>
+            <p>Many of these Traits can be applied to other card series developed by Ether Cards partners and clients.</p>
+
+            <h3 class="mb-3 mt-5">Limited Edition Traits</h3>
+
+            <ul class="mb-5">
+              <li>Discount Traits</li>
+              <li>Creation Traits</li>
+              <li>Ticket Traits</li>
+              <li>Lucky Traits</li>
+            </ul>
+
+
             <div class="row">
 
               {% for trait in site.traits %}
   
-              <div class="col-md-4 trait-container mb-4">
-                <div class="trait p-3">
-                  <img style="display:block; margin: 5px auto; max-height: 48px" src="{{base}}/assets/images/trait-icons/{{trait.image}}" />
+              <div class="col-md-3 trait-container mb-4 flex">
+                <div class="trait p-4 flex-column align-items-center d-flex">
+                  <img style="display:block; margin: 10px auto 25px auto; max-height: 32px" src="{{base}}/assets/images/trait-icons/{{trait.image}}" />
                   <h4 class="text-center">{{trait.name}}</h4>
-                  <p class="summary">{{trait.summary}}</p>
-                  <p class="text-right">
-
-                    <a href={{trait.url}}>MORE</a>
-                  </p>
+                  <h5 class="text-center mt-3">ID: <span class="text-gray">{{trait.trait_id}}</span></h5>
+                  <h5 class="text-center mt-3">Applies to: <span class="text-gray">{{trait.card_types}}</span></h5>
+                  <p class="summary mt-4">{{trait.summary}}</p>
+                  
+                  <div class="footer-button mt-3">
+                    <a class="btn btn-peach btn-outline" href={{trait.url}}>MORE</a>
+                  </div>
+                  
                 </div>
 
               </div>

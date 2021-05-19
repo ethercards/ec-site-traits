@@ -1,5 +1,5 @@
 ---
-id: 106
+trait_id: 106
 name: Alpha Upgrade
 image: alpha-upgrade.png
 summary: The cardholder can replace this card with an Alpha card from the Ether Cards vault,hosenby the Ether Cards team.

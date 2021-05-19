@@ -1,5 +1,5 @@
 ---
-id: 117
+trait_id: 117
 name: Disco Dropper
 image: disco-dropper.png
 summary: Drops a random Discount Trait to the card, the Discount Trait is replaced with a new one each month. The Disco Dropper Trait can be burned to keep a specific Discount Trait Permanently.

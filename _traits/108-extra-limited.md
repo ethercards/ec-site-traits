@@ -1,5 +1,5 @@
 ---
-id: 108
+trait_id: 108
 name: Extra Limited Edition Trait Slot
 image: PLACEHOLDER.png
 summary: Provides the cardholder with an extra Limited Edition Trait slot on this card

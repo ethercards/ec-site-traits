@@ -1,5 +1,5 @@
 ---
-id: 122
+trait_id: 122
 name: Redeemable
 image: PLACEHOLDER.png
 summary: Allows the cardholder to burn this Trait in exchange for a physical version of their Ether Card

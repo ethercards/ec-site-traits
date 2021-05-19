@@ -1,5 +1,5 @@
 ---
-id: 119
+trait_id: 119
 name: Selective layer Reroll
 image: PLACEHOLDER.png
 summary: Allows the cardholder to reroll the selected layers on the card. This Trait also gives you a higher chance of rolling a “Perfect”.

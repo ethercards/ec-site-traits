@@ -1,5 +1,5 @@
 ---
-id: 125
+trait_id: 125
 name: Warp Rabbit
 image: warp-rabbit.png
 summary: Provides an undefined benefit, including but not limited to dropping Dust, a Randomized Edition Trait, an Arson NFT (for Forge users). Upon use, the Trait will re-appear on a different card with the potential to add a new benefit.

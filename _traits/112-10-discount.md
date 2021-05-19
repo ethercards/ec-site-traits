@@ -1,5 +1,5 @@
 ---
-id: 112
+trait_id: 112
 name: 10% Discount
 image: discount-10.png
 summary: Provides a one-time 10% discount to the cardholder for any service on the Ether Cards gamification platform.

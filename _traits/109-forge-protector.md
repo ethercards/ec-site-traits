@@ -1,5 +1,5 @@
 ---
-id: 109
+trait_id: 109
 name: Forge Protector
 image: forge-protector.png
 summary: Protects this card against the Forge’s sacrifice for one use. When sacrificing this card in the Forge, it will not be destroyed and will remain in the cardholder’s wallet.

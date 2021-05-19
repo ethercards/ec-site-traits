@@ -1,5 +1,5 @@
 ---
-id: 124
+trait_id: 124
 name: True Name
 image: PLACEHOLDER.png
 summary: Allows the cardholder to name the Card’s accidental collaborative artwork

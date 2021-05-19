@@ -1,5 +1,5 @@
 ---
-id: 101
+trait_id: 101
 name: Unicorn
 image: unicorn.png
 summary: Placeholder Trait

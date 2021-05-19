@@ -1,5 +1,5 @@
 ---
-id: 116
+trait_id: 116
 name: Rando Dropper
 image: rando-dropper.png
 summary: Drops a random Randomized Edition Trait to the card. This Trait is then replaced with a new Randomized Edition Trait each month. The Rando Dropper Trait can be burned to keep a specific Randomized Edition Trait permanently.
