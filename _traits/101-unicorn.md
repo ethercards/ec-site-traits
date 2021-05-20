@@ -20,3 +20,5 @@ layout: trait
 Unicorns are an age-old symbol of transformation, and this trait lives among them in the fields of ever-unfolding flowers.
 
 *For now, Unicorn is a placeholder trait.* Traits are designed to be adaptable to new features and partnerships that emerge as the project grows. Some Traits are permanent, some can be added to cards over the course of time, and others are transformative Traits (like Unicorn, Disco Dropper, Unstable and others) which change based on certain interactions or events.
+
+<small>*Terms and conditions apply.</small>
