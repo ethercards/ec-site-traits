@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Perfect
 image: PLACEHOLDER.png
 summary: Given to cards with all accidental art layers from the same artist

@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: limited_edition
 name: Free Puzzle Creation
 image: PLACEHOLDER.png
 summary: Waives the fee for creating a Puzzle event on the Ether Cards event platform.

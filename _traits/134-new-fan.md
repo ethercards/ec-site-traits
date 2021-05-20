@@ -1,12 +1,13 @@
 ---
 trait_id: TBA
+type: random_edition
 name: New Fan
 image: PLACEHOLDER.png
 summary: A vanity Trait that moves to the most recently moved card of specified artist.
 card_types: All
 category: '-'
 max_issuance: TBA
-burnt_upon_use: 'Yes'
+burnt_upon_use: 'No'
 max_usages: '-'
 effect_of_transferring: None
 limit: '-'

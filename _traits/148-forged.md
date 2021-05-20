@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Forged
 image: PLACEHOLDER.png
 summary: Given to Cards that have passed through the Forge and not been sacrificed

@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Punk Battle Royale Ticket
 image: PLACEHOLDER.png
 summary: Entry ticket given to every card to compete in the Ether Card Battle Royale event to try and win a Crypto Punk.

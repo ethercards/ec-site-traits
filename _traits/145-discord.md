@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Discord
 image: PLACEHOLDER.png
 summary: Given to Ether Cards discord users

@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Phoenix
 image: PLACEHOLDER.png
 summary: Given to any cards purchased during the Ether Cards presale

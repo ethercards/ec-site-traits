@@ -1,12 +1,13 @@
 ---
 trait_id: TBA
-name: Free Ticket Creation
+type: random_edition
+name: Free Ticket
 image: free-ticket.png
-summary: Waives the fee for creating a Ticket event on the Ether Cards event platform.
+summary: Provides the cardholder with one free ticket to be used on any participating Ticket event.
 card_types: All
-category: Discount
-max_issuance: '-'
-burnt_upon_use: 'No'
+category: Free service
+max_issuance: 1500
+burnt_upon_use: 'Yes'
 max_usages: '-'
 effect_of_transferring: None
 limit: '-'
@@ -14,11 +15,11 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Free Ticket Creation
+## Free Ticket
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-This Trait gives you the ability to create a Ticket event on the Ether Cards platform for free. This card will have a limit to the number of times it can be used per month. 
+This **trait gives you one free ticket to any raffle that takes place on the Ether Cards platform.** 
 
 <small>*Terms and conditions apply.</small>
 

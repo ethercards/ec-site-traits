@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Classic EC
 image: PLACEHOLDER.png
 summary: Given to any user who posted a classic Ether Card on Twitter

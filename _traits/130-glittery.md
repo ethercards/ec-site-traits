@@ -1,5 +1,6 @@
 ---
 trait_id: 130
+type: random_edition
 name: Glittery
 image: PLACEHOLDER.png
 summary: Provides a shiny or animated overlay to the existing card
@@ -11,6 +12,7 @@ max_usages: '-'
 effect_of_transferring: None
 limit: '-'
 period_of_validity: '-'
+community_trait: '@ramaraje'
 layout: trait
 ---
 
@@ -18,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-*This Trait was proposed by @ramaraje as part of our first community Trait creation contest.*
+This trait **adds a custom overlay to your card.** With only 88 Glittery traits dropped to the original Ether Cards, this makes your card among the most rare.
 
-This trait adds a shining glittery border to your card or an animated layer. With only 88 Glittery traits dropped to First Edition Ether Cards, this makes your card among the most rare.
+<small>*Terms and conditions apply.</small>

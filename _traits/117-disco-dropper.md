@@ -1,8 +1,9 @@
 ---
 trait_id: 117
+type: random_edition
 name: Disco Dropper
 image: disco-dropper.png
-summary: Drops a random Discount Trait to the card, the Discount Trait is replaced with a new one each month. The Disco Dropper Trait can be burned to keep a specific Discount Trait Permanently.
+summary: Drops a random Discount Trait to the card, replaced monthly. The Disco Dropper Trait can be burned to keep the current Discount Trait permanently.
 card_types: All
 category: Dropper
 max_issuance: 1500
@@ -18,8 +19,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-Disco Dropper drops a discount Trait onto your card. The discount trait changes every month to a different randomly selected discount. You can burn Disco Dropper to keep any one of the discount traits that gets dropped on your card permanently. This turns an otherwise limited-use Randomized Edition Trait into a lifetime trait.
+Disco Dropper **drops a Discount Trait onto your card, replacing it every month** with a new Discount Trait. You can burn Disco Dropper to keep the current Discount Trait permanently. 
 
-Conditions for the permanent version of the discount are defined by the corresponding Limited Edition discount Trait (see the “discounts” section in the Limited Edition Trait pages).
-
-Ether Cards uses Chainlink VRF (verifiable random function) to achieve the difficult task of generating randomness on blockchain. Randomization comes into play for raffles, blind bags and other features on the gamification platform as well as in some traits like Disco Dropper.
+<small>*Terms and conditions apply.</small>

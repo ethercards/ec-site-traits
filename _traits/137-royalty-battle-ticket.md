@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Royalty Battle Ticket
 image: PLACEHOLDER.png
 summary: Entry ticket given to every card to compete in the Ether Card Battle Royale event to try and win one of the 3% Royalty Traits.

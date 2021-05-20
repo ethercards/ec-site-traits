@@ -1,5 +1,6 @@
 ---
 trait_id: 103
+type: random_edition
 name: Reforge+
 image: reforge-plus.png
 summary: One-time ability to re-randomize any (or all) selected layers of the card’s accidental rtimage, guarantees non-common layers.

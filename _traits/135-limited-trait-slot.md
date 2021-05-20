@@ -1,12 +1,13 @@
 ---
 trait_id: TBA
+type: conditional
 name: Limited Trait Slot
 image: PLACEHOLDER.png
 summary: Trait slots that hold Limited Edition Traits
 card_types: All
 category: '-'
 max_issuance: '-'
-burnt_upon_use: 'Yes'
+burnt_upon_use: 'No'
 max_usages: '-'
 effect_of_transferring: None
 limit: '-'

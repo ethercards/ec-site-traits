@@ -1,9 +1,10 @@
 ---
 trait_id: 102
+type: random_edition
 name: Reforge
 image: reforge.png
 summary: One-time ability to re-randomize any (or all) selected layers of the card’s accidental art image.
-applies_to: All
+card_types: All
 category: Reforge
 max_issuance: 2500
 burnt_upon_use: 'Yes'

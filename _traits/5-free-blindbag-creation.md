@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: limited_edition
 name: Free Blind Bag Creation
 image: PLACEHOLDER.png
 summary: Waives the fee for creating a Blind Bag event on the Ether Cards event platform.

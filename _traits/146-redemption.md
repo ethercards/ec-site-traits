@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Redemption
 image: PLACEHOLDER.png
 summary: Given to cards that have physical items attached to them

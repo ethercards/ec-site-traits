@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Artist Trait
 image: PLACEHOLDER.png
 summary: Given to any artist who provided art for the Ether Cards sale

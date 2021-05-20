@@ -1,5 +1,6 @@
 ---
 trait_id: 127
+type: random_edition
 name: Merch
 image: PLACEHOLDER.png
 summary: Allows the cardholder to burn the Trait to redeem special Ether Cards merchandise like hoodies, etc. (Shipping fees apply)
@@ -11,6 +12,7 @@ max_usages: '-'
 effect_of_transferring: None
 limit: '-'
 period_of_validity: '-'
+community_trait: '@OrdoUniverse'
 layout: trait
 ---
 
@@ -18,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-*This Trait was proposed by @OrdoUnivers as part of our first community Trait creation contest.*
+Burn this trait to **receive a physical Ether Cards-themed item in the mail** (like an EC hoodie). 
 
-Burn this trait to receive a physical Ether Cards-themed item in the mail (like an EC hoodie or another surprise). Shipping fees apply.
+<small>*Terms and conditions apply.</small>

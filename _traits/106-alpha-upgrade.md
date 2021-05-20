@@ -1,5 +1,6 @@
 ---
 trait_id: 106
+type: random_edition
 name: Alpha Upgrade
 image: alpha-upgrade.png
 summary: The cardholder can replace this card with an Alpha card from the Ether Cards vault,hosenby the Ether Cards team.

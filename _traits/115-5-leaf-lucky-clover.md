@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: limited_edition
 name: 5 Leaf Lucky Clover
 image: PLACEHOLDER.png
 summary: Receive a higher chance of obtaining rare cards when purchasing Blind Bags

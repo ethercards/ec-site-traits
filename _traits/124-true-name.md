@@ -1,5 +1,6 @@
 ---
 trait_id: 124
+type: random_edition
 name: True Name
 image: PLACEHOLDER.png
 summary: Allows the cardholder to name the Card’s accidental collaborative artwork
@@ -11,6 +12,7 @@ max_usages: '-'
 effect_of_transferring: None
 limit: '-'
 period_of_validity: '-'
+community_trait: '@Eskalexia'
 layout: trait
 ---
 
@@ -18,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-*This Trait was proposed by @Eskalexia as part of our first community Trait creation contest.*
-
 True Name gives you the ability to give your accidental collaboration artwork a name that will be recorded in the card’s metadata and displayed anywhere that the card appears.
+
+<small>*Terms and conditions apply.</small>

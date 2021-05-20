@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: limited_edition
 name: 1 Extra Ticket
 image: PLACEHOLDER.png
 summary: Receive an extra free ticket when participating in Ticket events.

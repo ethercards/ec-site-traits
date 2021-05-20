@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Alpha Layer Drop
 image: PLACEHOLDER.png
 summary: Drops 25 extra “Accidental Collaboration” Artworks.

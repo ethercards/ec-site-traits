@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: limited_edition
 name: All Services Free
 image: PLACEHOLDER.png
 summary: Waives the fee for creating any event on the Ether Cards event platform.

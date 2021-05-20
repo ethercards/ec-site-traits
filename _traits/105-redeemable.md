@@ -1,5 +1,6 @@
 ---
 trait_id: 105
+type: random_edition
 name: Redeemable
 image: PLACEHOLDER.png
 summary: Provides the cardholder with the ability to redeem a physical item

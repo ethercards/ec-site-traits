@@ -1,8 +1,9 @@
 ---
 trait_id: 110
+type: random_edition
 name: 50% Discount
 image: discount-50.png
-summary: Provides a one-time 50% discount to the cardholder for any service on the Ether Cards gamification platform.
+summary: Provides a one-time 50% discount to the cardholder for any service on the Ether Cards events platform.
 card_types: All
 category: Discount
 max_issuance: 100

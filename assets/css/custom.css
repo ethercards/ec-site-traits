@@ -358,10 +358,10 @@ p + ul li{
 .markdown .trait-container p.summary{
   line-height: 1.4em;
   font-size: 0.9em;
-  max-height: 5.6em;
-  height: 5.6rem; 
+  /* max-height: 8.4em;
+  overflow: scroll; */
   text-align: center;
-  overflow: hidden;
+  margin-bottom: 2rem;
 }
 .markdown .trait-container h4{
   font-size: 1.1em;

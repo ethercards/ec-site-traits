@@ -1,13 +1,14 @@
 ---
 trait_id: 101
+type: random_edition
 name: Unicorn
 image: unicorn.png
 summary: Placeholder Trait
-applies_to: All
+card_types: All
 category: Transformer
 max_issuance: 500
 burnt_upon_use: TBA
-max_usages: TBA
+max_usages: '-'
 effect_of_transferring: TBA
 limit: '-'
 period_of_validity: '-'

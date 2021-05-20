@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Supporter
 image: PLACEHOLDER.png
 summary: Given to community members who have contributed to the Ether Cards Project

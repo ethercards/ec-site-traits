@@ -1,5 +1,6 @@
 ---
 trait_id: TBA
+type: conditional
 name: Creator
 image: PLACEHOLDER.png
 summary: Given to Ether Cards team members
