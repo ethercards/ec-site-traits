@@ -18,4 +18,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-This Trait gives you a one-time 50% discount on any gamification platform service (max: 1 ETH value). Services include both creating and participating in gamifications like raffles, blind bags and set-completion games. After using the discount, the trait is burned. Terms and conditions apply.
+This Trait gives you a one-time 50% discount on any gamification platform service (max: 1 ETH value). Services include both creating and participating in gamifications like raffles, blind bags and set-completion games. After using the discount, the trait is burned.
+
+<small>*Terms and conditions apply.</small>
