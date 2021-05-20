@@ -3,7 +3,7 @@ trait_id: 111
 name: 25% Discount
 image: discount-25.png
 summary: Provides a 25% discount to the cardholder for any service on the Ether Cards event platform.
-card_types: OG
+card_types: All
 category: Discount
 max_issuance: '250'
 burnt_upon_use: 'Yes'
