@@ -5,7 +5,7 @@ name: Free Ticket Creation
 image: free-ticket.png
 summary: Waives the fee for creating a Ticket event on the Ether Cards event platform.
 card_types: All
-category: Free service
+category: Discount
 max_issuance: '-'
 burnt_upon_use: 'No'
 max_usages: '-'

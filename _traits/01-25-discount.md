@@ -15,7 +15,7 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## 10% Discount
+## 25% Discount
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
