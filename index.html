@@ -3,52 +3,100 @@ layout: base
 ---
 
 <div class="container">
-   
-        <div class="markdown">
-            <h2 class="text-center">Traits</h2>
+  <div class="markdown">
+    <h2 class="text-center">Traits</h2>
 
-            <p>Many of these TraitEther Cards NFTs contain a large variety of Traits which provide cardholders benefits for both the digital and physical world. Traits can be broken up into three categories: Limited Edition, Random Edition, and Conditional Traits.</p>
-            <p>Limited Edition Traits are the most valuable and powerful Traits, in as much as they will never expire and will never be offered again in the same capacity. Users can select which Trait(s) they would like to assign to their Limited Trait Slots. Founder Cards have one slot, Alphas have two, and OGs have three. Most Limited Edition Traits will have the ability to level up.</p>
-            <p>Random Edition Traits vary in their benefits and value, and are assigned randomly to cards. Some cards will have lots of these Traits, while others may only contain one or in some rare cases, none.</p>
-            <p>Conditional Traits generally are set in their value and are only applied to cards that meet the conditional requirements.</p>
-            <p>Many of these Traits can be applied to other card series developed by Ether Cards partners and clients.</p>
+    <p>
+      Many of these TraitEther Cards NFTs contain a large variety of Traits
+      which provide cardholders benefits for both the digital and physical
+      world. Traits can be broken up into three categories: Limited Edition,
+      Random Edition, and Conditional Traits.
+    </p>
+    <p>
+      Limited Edition Traits are the most valuable and powerful Traits, in as
+      much as they will never expire and will never be offered again in the same
+      capacity. Users can select which Trait(s) they would like to assign to
+      their Limited Trait Slots. Founder Cards have one slot, Alphas have two,
+      and OGs have three. Most Limited Edition Traits will have the ability to
+      level up.
+    </p>
+    <p>
+      Random Edition Traits vary in their benefits and value, and are assigned
+      randomly to cards. Some cards will have lots of these Traits, while others
+      may only contain one or in some rare cases, none.
+    </p>
+    <p>
+      Conditional Traits generally are set in their value and are only applied
+      to cards that meet the conditional requirements.
+    </p>
+    <p>
+      Many of these Traits can be applied to other card series developed by
+      Ether Cards partners and clients.
+    </p>
 
-            <h3 class="mb-3 mt-5">Limited Edition Traits</h3>
+    <h3 class="mb-3 mt-5">Limited Edition Traits</h3>
 
-            <ul class="mb-5">
-              <li>Discount Traits</li>
-              <li>Creation Traits</li>
-              <li>Ticket Traits</li>
-              <li>Lucky Traits</li>
-            </ul>
+    <ul class="mb-5">
+      <li>Discount Traits</li>
+      <li>Creation Traits</li>
+      <li>Ticket Traits</li>
+      <li>Lucky Traits</li>
+    </ul>
 
+    <div class="row">
+      {% for trait in site.traits %}
 
-            <div class="row">
+      <div class="col-md-3 trait-container mb-4 flex">
+        <div class="trait p-4 flex-column align-items-center d-flex">
+          <img
+            style="
+              display: block;
+              margin: 10px auto 25px auto;
+              max-height: 32px;
+            "
+            src="{{base}}/assets/images/trait-icons/{{trait.image}}"
+          />
+          <h4 class="text-center">{{trait.name}}</h4>
+          <h5 class="text-center mt-3">
+            ID: <span class="text-gray">{{trait.trait_id}}</span>
+          </h5>
+          <h5 class="text-center mt-3">
+            Applies to: <span class="text-gray">{{trait.card_types}}</span>
+          </h5>
+          <p class="summary mt-4">{{trait.summary}}</p>
 
-              {% for trait in site.traits %}
-  
-              <div class="col-md-3 trait-container mb-4 flex">
-                <div class="trait p-4 flex-column align-items-center d-flex">
-                  <img style="display:block; margin: 10px auto 25px auto; max-height: 32px" src="{{base}}/assets/images/trait-icons/{{trait.image}}" />
-                  <h4 class="text-center">{{trait.name}}</h4>
-                  <h5 class="text-center mt-3">ID: <span class="text-gray">{{trait.trait_id}}</span></h5>
-                  <h5 class="text-center mt-3">Applies to: <span class="text-gray">{{trait.card_types}}</span></h5>
-                  <p class="summary mt-4">{{trait.summary}}</p>
-                  
-                  <div class="footer-button mt-auto">
-                    <a class="btn btn-peach btn-outline" href={{trait.url}}>MORE</a>
-                  </div>
-                  
-                </div>
+          <div class="footer-button mt-auto">
+            <a class="btn btn-peach btn-outline" href="{{trait.url}}">MORE</a>
+          </div>
+        </div>
+      </div>
 
-              </div>
-  
-  
-              {% endfor %}
-            </div>
+      {% endfor %}
+    </div>
 
-            
-    
+    <div class="row text-left disclaimer">
+      <p>
+        All Traits presented here will continue to be iterated and can change,
+        be adapted or removed should technical, legal or other challenges arise.
+        Ether Cards makes no representation that these Traits will increase the
+        value of any card.
+      </p>
+      <p>
+        Ether Cards makes no representation, warranty, or undertaking, express
+        or implied, as to the accuracy, reliability, completeness, or
+        reasonableness of the information in any posts. Any assumptions,
+        opinions, and details expressed in any Ether Cards blog or community
+        posts constitute Ether Card’s judgment as of the date thereof and are
+        subject to change without notice. Any projections or claims contained in
+        the information are based on a number of assumptions including, but not
+        limited to market conditions and the current status of Ether Cards, and
+        there can be no guarantee that any projected outcomes will be achieved.
+      </p>
+      <p>
+        Ether Cards does not accept any liability for any direct, consequential,
+        or other loss arising from reliance on the contents of the information
+        in this post.
+      </p>
     </div>
   </div>
-
+</div>

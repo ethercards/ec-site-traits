@@ -223,6 +223,10 @@ p + ul li{
 .default p {
   line-height: 1.4;
 }
+.disclaimer p {
+  font-style: italic;
+  font-size: 13px !important;
+}
 /* Generic title subtitle ends here */
 
 /* Default button starts here*/
