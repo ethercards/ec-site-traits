@@ -2,7 +2,7 @@
 trait_id: 158
 type: conditional
 name: Discord
-image: PLACEHOLDER.png
+image: discord.png
 summary: Given to Ether Cards discord users
 card_types: Conditional
 category: '-'
