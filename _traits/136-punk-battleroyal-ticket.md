@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 149
 type: conditional
 name: Punk Battle Royale Ticket
 image: PLACEHOLDER.png
