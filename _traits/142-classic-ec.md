@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 155
 type: conditional
 name: Classic EC
 image: PLACEHOLDER.png
