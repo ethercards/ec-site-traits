@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 141
 type: limited_edition
 name: All Services Free
 image: PLACEHOLDER.png
