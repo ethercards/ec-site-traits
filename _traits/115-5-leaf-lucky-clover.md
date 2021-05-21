@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 146
 type: limited_edition
 name: 5 Leaf Lucky Clover
 image: PLACEHOLDER.png
