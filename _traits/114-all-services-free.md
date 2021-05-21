@@ -2,7 +2,7 @@
 trait_id: 141
 type: limited_edition
 name: All Services Free
-image: PLACEHOLDER.png
+image: all-services-free.png
 summary: Waives the fee for creating any event on the Ether Cards event platform.
 card_types: All
 category: Discount
