@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 161
 type: conditional
 name: Forged
 image: PLACEHOLDER.png
