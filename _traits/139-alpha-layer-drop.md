@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 152
 type: conditional
 name: Alpha Layer Drop
 image: PLACEHOLDER.png
