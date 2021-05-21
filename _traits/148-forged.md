@@ -2,7 +2,7 @@
 trait_id: 161
 type: conditional
 name: Forged
-image: PLACEHOLDER.png
+image: forged.png
 summary: Given to Cards that have passed through the Forge and not been sacrificed
 card_types: Conditional
 category: '-'
