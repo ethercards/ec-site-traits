@@ -2,7 +2,7 @@
 trait_id: 136
 type: limited_edition
 name: 15% Discount
-image: PLACEHOLDER.png
+image: discount-15_ltd.png
 summary: Provides a 15% discount to the cardholder for any service on the Ether Cards events platform.
 card_types: Alpha
 category: Discount
