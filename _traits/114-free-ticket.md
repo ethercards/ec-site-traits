@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 114
 type: random_edition
 name: Free Ticket
 image: free-ticket.png
