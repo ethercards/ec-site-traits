@@ -8,10 +8,6 @@ card_types: All
 category: Dropper
 max_issuance: 25
 burnt_upon_use: 'No'
-max_usages: '-'
-effect_of_transferring: If a card with this Trait is transferred, only one Golden Goose Blind Bag will be provided during a one-month period beginning with the date of transfer.
-limit: In the case of multiple Blind Bag events in a single month, Golden Goose will provide one Blind Bag per month.
-period_of_validity: '-'
 community_trait: '@SaArbitrage'
 layout: trait
 ---
