@@ -2,7 +2,7 @@
 trait_id: 142
 type: limited_edition
 name: 1 Extra Ticket
-image: PLACEHOLDER.png
+image: 1-extra-ticket.png
 summary: Receive an extra free ticket when participating in Ticket events.
 card_types: All
 category: '-'
