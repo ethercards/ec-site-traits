@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 157
 type: conditional
 name: Creator
 image: PLACEHOLDER.png
