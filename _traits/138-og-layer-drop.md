@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 151
 type: conditional
 name: OG Layer Drop
 image: PLACEHOLDER.png
