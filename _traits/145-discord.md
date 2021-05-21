@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 158
 type: conditional
 name: Discord
 image: PLACEHOLDER.png
