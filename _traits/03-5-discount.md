@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 137
 type: limited_edition
 name: 5% Discount
 image: PLACEHOLDER.png
