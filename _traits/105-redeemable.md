@@ -19,6 +19,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-This trait will be redeemable for a physical item in the real world. Plans are still underway, but so far what we know is that it will be something special.
+This trait will be redeemable for a physical item in the real world. Plans are still underway, but there are plenty of exciting items that could be assigned to your Trait.
 
 <small>*Terms and conditions apply.</small>
