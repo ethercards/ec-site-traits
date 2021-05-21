@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 150
 type: conditional
 name: Royalty Battle Ticket
 image: PLACEHOLDER.png
