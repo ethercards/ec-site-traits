@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 135
 type: limited_edition
 name: 25% Discount
 image: discount-25.png
