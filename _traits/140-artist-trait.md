@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 153
 type: conditional
 name: Artist Trait
 image: PLACEHOLDER.png
