@@ -15,7 +15,7 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## 2 Extra Tickets
+## 2 Extra Ticket
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
