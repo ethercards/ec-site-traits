@@ -2,7 +2,7 @@
 trait_id: 154
 type: conditional
 name: Phoenix
-image: PLACEHOLDER.png
+image: phoenix.png
 summary: Given to any cards purchased during the Ether Cards presale
 card_types: Presale Cards
 category: '-'
