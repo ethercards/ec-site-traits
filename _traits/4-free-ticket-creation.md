@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 138
 type: limited_edition
 name: Free Ticket Creation
 image: free-ticket.png
