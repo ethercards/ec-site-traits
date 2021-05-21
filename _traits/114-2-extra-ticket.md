@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 143
 type: limited_edition
 name: 2 Extra Tickets
 image: PLACEHOLDER.png
