@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 134
 type: random_edition
 name: New Fan
 image: PLACEHOLDER.png
