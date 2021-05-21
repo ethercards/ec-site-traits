@@ -2,7 +2,7 @@
 trait_id: 151
 type: conditional
 name: OG Layer Drop
-image: PLACEHOLDER.png
+image: og-layer-drop.png
 summary: Drops 25 extra “Accidental Collaboration” Artworks.
 card_types: OGs
 category: Drop
