@@ -2,7 +2,7 @@
 trait_id: 105
 type: random_edition
 name: Redeemable
-image: PLACEHOLDER.png
+image: redeemable.png
 summary: Provides the cardholder with the ability to redeem a physical item
 card_types: All
 category: physical item portal
