@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 148
 type: conditional
 name: Limited Trait Slot
 image: PLACEHOLDER.png
