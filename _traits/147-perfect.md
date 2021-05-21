@@ -2,7 +2,7 @@
 trait_id: 160
 type: conditional
 name: Perfect
-image: PLACEHOLDER.png
+image: perfect.png
 summary: Given to cards with all accidental art layers from the same artist
 card_types: Conditional
 category: '-'
