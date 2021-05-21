@@ -2,7 +2,7 @@
 trait_id: 135
 type: limited_edition
 name: 25% Discount
-image: PLACEHOLDER.png
+image: discount-25_ltd.png
 summary: Provides a 25% discount to the cardholder for any service on the Ether Cards event platform.
 card_types: OG
 category: Discount
