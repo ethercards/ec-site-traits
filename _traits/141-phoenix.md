@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 154
 type: conditional
 name: Phoenix
 image: PLACEHOLDER.png
