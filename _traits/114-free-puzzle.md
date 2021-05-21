@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 140
 type: limited_edition
 name: Free Puzzle Creation
 image: PLACEHOLDER.png
