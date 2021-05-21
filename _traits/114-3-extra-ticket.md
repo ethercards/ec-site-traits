@@ -2,7 +2,7 @@
 trait_id: 144
 type: limited_edition
 name: 3 Extra Tickets
-image: PLACEHOLDER.png
+image: 3-extra-ticket.png
 summary: Receive three extra free tickets when participating in Ticket events.
 card_types: All
 category: '-'
