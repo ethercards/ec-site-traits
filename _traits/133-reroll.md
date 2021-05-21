@@ -2,7 +2,7 @@
 trait_id: 133
 type: random_edition
 name: Reroll
-image: PLACEHOLDER.png
+image: reroll.png
 summary: Allows the cardholder to reroll the card’s Random Edition Traits.
 card_types: All
 category: '-'
