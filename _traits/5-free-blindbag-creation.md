@@ -2,7 +2,7 @@
 trait_id: 139
 type: limited_edition
 name: Free Blind Bag Creation
-image: PLACEHOLDER.png
+image: free-blind-bag.png
 summary: Waives the fee for creating a Blind Bag event on the Ether Cards event platform.
 card_types: All
 category: Discount
