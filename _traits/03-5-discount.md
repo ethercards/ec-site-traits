@@ -2,7 +2,7 @@
 trait_id: 137
 type: limited_edition
 name: 5% Discount
-image: PLACEHOLDER.png
+image: discount-5_ltd.png
 summary: Provides a 5% discount to the cardholder for any service on the Ether Cards events platform.
 card_types: Founder
 category: Discount
