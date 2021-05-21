@@ -2,3 +2,5 @@
   path: https://docs.ether.cards/platform.html
 - name: tokens
   path: https://docs.ether.cards/tokens.html
+- name: team
+  path: https://docs.ether.cards/team.html
