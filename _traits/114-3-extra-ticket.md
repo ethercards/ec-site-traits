@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 144
 type: limited_edition
 name: 3 Extra Tickets
 image: PLACEHOLDER.png
@@ -15,7 +15,7 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## 3 Extra Tickets
+## 3 Extra Ticket
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
