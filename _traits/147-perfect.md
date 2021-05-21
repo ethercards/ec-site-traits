@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 160
 type: conditional
 name: Perfect
 image: PLACEHOLDER.png
