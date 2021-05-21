@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 139
 type: limited_edition
 name: Free Blind Bag Creation
 image: PLACEHOLDER.png
