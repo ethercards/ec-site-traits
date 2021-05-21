@@ -1,5 +1,5 @@
 ---
-trait_id: TBA
+trait_id: 159
 type: conditional
 name: Redemption
 image: PLACEHOLDER.png
