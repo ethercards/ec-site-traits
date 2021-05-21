@@ -2,7 +2,7 @@
 trait_id: 153
 type: conditional
 name: Artist Trait
-image: PLACEHOLDER.png
+image: artist-trait.png
 summary: Given to any artist who provided art for the Ether Cards sale
 card_types: Artist Cards
 category: '-'
