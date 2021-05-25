@@ -1,7 +1,7 @@
 ---
 trait_id: 143
 type: limited_edition
-name: 2 Extra Tickets
+name: 2 Extra Ticket
 image: 2-extra-ticket.png
 summary: Receive two extra free tickets when participating in Ticket events.
 card_types: All
