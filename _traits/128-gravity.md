@@ -12,7 +12,7 @@ max_usages: '-'
 effect_of_transferring: None
 limit: '-'
 period_of_validity: '-'
-community_trait: '@scropiomoon'
+community_trait: '@scorpiomoon'
 layout: trait
 ---
 
