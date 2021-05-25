@@ -20,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-With the Fluid Trait, your card becomes as changeable as the moon. **Once a month, you can reroll any or all of the layers that make up the accidental collaboration artwork on your card.**
+With the Fluid Trait, your card becomes as changeable as the moon. **Once a month, you can reroll any or all of the layers that make up the Accidental Collaboration artwork on your card.**
 
 <small>*Terms and conditions apply.</small>
