@@ -19,7 +19,7 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-Every Alpha holds this Trait, giving them an extra 5 “accidental Collaboration” artworks. Each artwork consists of 5 art layers.
+Every Alpha holds this Trait, giving them an extra 5 “Accidental Collaboration” artworks. Each artwork consists of 5 art layers.
 
 <small>*Terms and conditions apply.</small>
 
