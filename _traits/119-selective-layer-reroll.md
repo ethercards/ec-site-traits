@@ -20,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-This Trait gives you the ability to **select layers in the accidental collaboration artwork(s) on your card and reroll them.** With Selective Layer Reroll, you also get higher chances of rolling a “Perfect.” This is a **one-time trait and is burned after use.**
+This Trait gives you the ability to **select layers in the Accidental Collaboration artwork(s) on your card and reroll them.** With Selective Layer Reroll, you also get higher chances of rolling a “Perfect.” This is a **one-time trait and is burned after use.**
 
 <small>*Terms and conditions apply.</small>
