@@ -20,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-True Name gives you the ability to give your accidental collaboration artwork a name that will be recorded in the card’s metadata and displayed anywhere that the card appears.
+True Name gives you the ability to give your Accidental Collaboration artwork a name that will be recorded in the card’s metadata and displayed anywhere that the card appears.
 
 <small>*Terms and conditions apply.</small>
