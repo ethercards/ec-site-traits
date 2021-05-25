@@ -3,7 +3,7 @@ trait_id: 124
 type: random_edition
 name: True Name
 image: PLACEHOLDER.png
-summary: Allows the cardholder to name the Card’s accidental collaborative artwork
+summary: Allows the cardholder to name the Card’s Accidental Collaboration artwork
 card_types: All
 category: '-'
 max_issuance: 900
