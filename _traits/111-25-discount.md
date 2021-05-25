@@ -19,7 +19,7 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-This Trait gives you a **one-time 50% discount on any platform service** (max: 1 ETH value). Services include both creating and participating in events, such as raffles, blind bags, and puzzles. After using the discount, the trait is burned. 
+This Trait gives you a **one-time 25% discount on any platform service** (max: 1 ETH value). Services include both creating and participating in events, such as raffles, blind bags, and puzzles. After using the discount, the trait is burned. 
 
 <small>*Terms and conditions apply.</small>
 
