@@ -8,6 +8,7 @@ card_types: All
 category: Dropper
 max_issuance: 25
 burnt_upon_use: 'No'
+effect_of_transferring: None
 community_trait: '@SaArbitrage'
 layout: trait
 ---
