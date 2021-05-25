@@ -19,7 +19,7 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-Every OG holds this Trait, giving them an extra 25 “accidental Collaboration” artworks. Each artwork consists of 5 art layers.
+Every OG holds this Trait, giving them an extra 25 “Accidental Collaboration” artworks. Each artwork consists of 5 art layers.
 
 <small>*Terms and conditions apply.</small>
 
