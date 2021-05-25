@@ -20,6 +20,6 @@ layout: trait
 
 ![icon](/assets/images/trait-icons/{{page.image}})
 
-On the Ether Cards Explorer, you can view the entire set of original Ether Cards in a grid. With Synthesis Ritual, you can select layers from any adjacent card’s accidental collaboration artwork and copy them onto the layers on your card. This does not affect the card(s) from which you copy the layer(s), but replaces the layer(s) on your card with the selected layer(s).
+On the Ether Cards Explorer, you can view the entire set of original Ether Cards in a grid. With Synthesis Ritual, you can select layers from any adjacent card’s Accidental Collaboration artwork and copy them onto the layers on your card. This does not affect the card(s) from which you copy the layer(s), but replaces the layer(s) on your card with the selected layer(s).
 
 <small>*Terms and conditions apply.</small>
