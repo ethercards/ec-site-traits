@@ -1,0 +1,27 @@
+---
+title: Json Traits
+---
+
+{% assign traitss = site.traits | sort: "trait_id"  %}
+[
+  {% for trait in traitss %}
+    {
+      "trait_id": "{{ trait.trait_id }}",
+      "type": "{{ trait.type }}",
+      "name": "{{ trait.name }}",
+      "image": "{{ trait.image }}",
+      "categories": "{{ trait.categories }}",
+      "summary": "{{ trait.summary }}",
+      "card_types": "{{ trait.card_types }}",
+      "category": "{{ trait.category }}",
+      "max_issuance": "{{ trait.max_issuance }}",
+      "burnt_upon_use": "{{ trait.burnt_upon_use }}",
+      "max_usages": "{{ trait.max_usages }}",
+      "effect_of_transferring": "{{ trait.effect_of_transferring }}",
+      "limit": "{{ trait.limit }}",
+      "period_of_validity": "{{trait.period_of_validity}}",
+      "community_trait": "{{trait.community_trait }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -12,3 +12,9 @@ or
 ```
 bundle exec jekyll serve
 ```
+
+To get traits in json format
+```
+jekyll build
+copy generated traits-json.html and rename file type to traits-json.json
+```
