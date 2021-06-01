@@ -3,7 +3,7 @@ trait_id: 152
 type: conditional
 name: Alpha Layer Drop
 image: PLACEHOLDER.png
-summary: Drops 25 extra “Accidental Collaboration” Artworks.
+summary: Drops 5 extra “Accidental Collaboration” Artworks.
 card_types: Alphas
 category: Drop
 max_issuance: 500
