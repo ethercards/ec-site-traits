@@ -9,12 +9,25 @@
               community to stay up to date
             </h4>
 
-            <div class="input-group mb-3">
-              <input class="form-control" placeholder="Email Address" />
-              <button class="btn btn-purple-fill" type="button">
-                Join Now
-              </button>
-            </div>
+            <form id="register-form">
+              <div class="input-group mb-3">
+                <input
+                  class="form-control"
+                  placeholder="Email Address"
+                  type="email"
+                  name="email"
+                  required
+                />
+                <button
+                  id="submit-form"
+                  class="btn btn-purple-fill"
+                  type="submit"
+                >
+                  Join Now
+                  <div class="spinner-border"></div>
+                </button>
+              </div>
+            </form>
             <p style="margin-left: 20px; font-size: 14px">
               * Subscribe today for update
             </p>
@@ -78,15 +91,45 @@
             <h5>Contact Us</h5>
             <div class="social-icons">
               <a href="https://twitter.com/ether_cards" target="_blank"
-                ><img src="../assets/images/twitter.png" alt="twitter"
+                ><img src="./assets/images/twitter.png" alt="twitter"
               /></a>
               <a href="https://discord.com/invite/mBwauRSJNW" target="_blank"
-                ><img src="../assets/images/discord.png" alt="discord"
+                ><img src="./assets/images/discord.png" alt="discord"
               /></a>
               <a href="https://www.reddit.com/r/Ether_Cards/" target="_blank"
-                ><img src="../assets/images/reddit.png" alt="discord"
+                ><img src="./assets/images/reddit.png" alt="discord"
               /></a>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thankYouPopup" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span>×</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="thank-you-popup">
+            <img height="40" src="./assets/images/success.png" alt="Successful" />
+            <h2>Thank You!</h2>
+            <p>
+              Your submission has been received! Hop over to our Discord to get
+              daily bites of our upcoming launch!
+            </p>
+            <a
+              style="color: white !important"
+              class="btn btn-outline btn-peach"
+              href="https://discord.com/invite/mBwauRSJNW"
+              target="_blank"
+              >Join Discord</a
+            >
           </div>
         </div>
       </div>
