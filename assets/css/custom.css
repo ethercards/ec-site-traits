@@ -100,6 +100,7 @@ p + ul li {
 .navbar .nav-item {
   display: flex;
   height: 80px;
+  margin-top: 0;
 }
 .navbar .nav-item.active {
   border-bottom: 2px solid var(--primary);
@@ -110,6 +111,8 @@ p + ul li {
 .navbar,
 .navbar-nav,
 .navbar-nav .nav-item .nav-link {
+  padding-left: 15px;
+  justify-content: flex-end;
   align-items: center;
   font-family: "Poppins";
   font-size: 1rem;
@@ -134,6 +137,10 @@ p + ul li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+.navbar .navbar-collapse {
+  place-content: flex-end;
+  background: black;
+}
 
 .scrollable-menu {
   height: auto;
@@ -143,6 +150,11 @@ p + ul li {
 
 .navbar-toggler:focus {
   outline: none;
+}
+
+.navbar .navbar-toggler:active {
+  opacity: 0.8;
+  transform: translateY(2px);
 }
 
 .btn-nav {
@@ -167,6 +179,7 @@ p + ul li {
 }
 
 .nav-link {
+  height: 80px;
   white-space: nowrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
@@ -186,6 +199,17 @@ p + ul li {
   background-color: black;
   padding: 10px;
   border-radius: 6px;
+}
+@media (max-width: 992px) {
+  .dropdown-menu li {
+    text-align: right;
+  }
+  .dropdown-menu {
+    text-align: right;
+    border: 1px solid var(--primary);
+    border-left: 0px !important;
+    border-right: 0px !important;
+  }
 }
 .dropdown-item {
   padding: 10px;
@@ -766,15 +790,14 @@ p + ul li {
   .nav-item.dropdown {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    place-content: center;
   }
   .navbar .nav-item {
     height: auto;
   }
   .navbar .navbar-nav {
-    background-color: #13151a !important;
-    padding-bottom: 50px;
+    background-color: black !important;
+    padding-bottom: 10px;
+    align-items: flex-end;
   }
   .navbar-collapse {
     width: 100vw;
@@ -816,10 +839,6 @@ p + ul li {
   }
   .card .media-wrapper {
     max-height: 400px;
-  }
-  .navbar .navbar-nav {
-    background-color: #13151a !important;
-    padding-bottom: 50px;
   }
   .scrollable-menu {
     height: auto;
