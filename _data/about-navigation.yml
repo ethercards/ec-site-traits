@@ -1,0 +1,6 @@
+- name: blog
+  path: https://blog.ether.cards/
+- name: faq
+  path: https://docs.ether.cards/faq.html
+- name: team
+  path: https://docs.ether.cards/team.html

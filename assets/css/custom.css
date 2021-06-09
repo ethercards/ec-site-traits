@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 @font-face {
-  font-family: 'subspace';
-  src: local('subspace'), url(./Subspace.otf) format('opentype');
+  font-family: "subspace";
+  src: local("subspace"), url(./Subspace.otf) format("opentype");
 }
 :root {
-  --primary:#be1fda;
+  --primary: #be1fda;
 }
 .text-primary {
   color: var(--primary) !important;
@@ -22,13 +22,13 @@ body {
 }
 footer .footer-container {
   display: flex;
-  text-align: center; 
-  padding: 30px 15px
+  text-align: center;
+  padding: 30px 15px;
 }
-footer img {
+/* footer img {
   height: 25px;
   margin-left: 10px;
-}
+} */
 footer img:hover {
   filter: sepia(50%) saturate(2000%) brightness(70%) hue-rotate(214deg);
 }
@@ -40,8 +40,8 @@ footer #contactUs {
   margin-left: auto;
 }
 footer #copyright .c-symbol {
-  font-size: 24px; 
-  margin-right: 10px
+  font-size: 24px;
+  margin-right: 10px;
 }
 footer #copyright p {
   font-size: 14px;
@@ -66,11 +66,17 @@ p {
   color: #969da3;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: "Poppins";
 }
 
-p + ul li{
+p + ul li {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -86,47 +92,47 @@ p + ul li{
   padding-top: 120px;
 }
 .navbar {
-	background-color: #13151a;
-	z-index: 100;
-	height: 80px;
-	box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.4);
-  }
+  background-color: black;
+  z-index: 100;
+  height: 80px;
+  /* box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.4); */
+}
 .navbar .nav-item {
-	display: flex;
-	height: 80px;
+  display: flex;
+  height: 80px;
 }
 .navbar .nav-item.active {
-	border-bottom: 2px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
 }
 .navbar .nav-item.active .nav-link {
-	color: var(--primary);
+  color: var(--primary);
 }
 .navbar,
 .navbar-nav,
 .navbar-nav .nav-item .nav-link {
-	align-items: center;
-	font-family: "Poppins";
-	font-size: 1rem;
-	font-weight: 400;
-	color: #969da3;
-	background-color: #13151a !important;
-	border-bottom: none;
-	text-transform: uppercase;
-	vertical-align: middle;
-	display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #969da3;
+  background-color: black !important;
+  border-bottom: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: flex;
 }
 
 .navbar .navbar-dark.navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar-nav .nav-link:hover {
-	color: white !important;
+  color: white !important;
 }
 
 .navbar.past-main .navbar-nav {
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .scrollable-menu {
@@ -136,55 +142,56 @@ p + ul li{
 }
 
 .navbar-toggler:focus {
-	outline: none
+  outline: none;
 }
 
 .btn-nav {
-	background-color: var(--primary);
-	border-color: var(--primary) !important;
-	color: white;
+  background-color: var(--primary);
+  border-color: var(--primary) !important;
+  color: white;
 }
 
 .btn-nav:hover {
-	color: black;
-	background: white;
-	background-color: white;
-	border: 2px solid white !important;
-	filter: brightness(90%);
+  color: black;
+  background: white;
+  background-color: white;
+  border: 2px solid white !important;
+  filter: brightness(90%);
 }
 .btn-nav:active,
 .btn-nav:focus {
-	color: black;
-	background-color: white;
-	border: 2px solid white !important;
-	filter: brightness(80%);
+  color: black;
+  background-color: white;
+  border: 2px solid white !important;
+  filter: brightness(80%);
 }
 
 .nav-link {
-	white-space: nowrap;
-	white-space: -moz-pre-wrap;
-	white-space: -o-pre-wrap;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	white-space: nowrap;
-	vertical-align: middle;
+  white-space: nowrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 .nav-link.dropdown-toggle {
-	justify-content: center;
+  justify-content: center;
 }
 .nav-item.dropdown {
-	text-align: center;
+  text-align: center;
 }
 .dropdown-menu {
-	background-color: black;
-	padding: 10px;
-	border-radius: 10px;
+  top: 95%;
+  background-color: black;
+  padding: 10px;
+  border-radius: 6px;
 }
 .dropdown-item {
-	padding: 10px;
-	color: #969da3;
-	font-size: 16px;
-	font-weight: 500;
+  padding: 10px;
+  color: #969da3;
+  font-size: 16px;
+  font-weight: 500;
 }
 .dropdown-item.active {
   background: none;
@@ -192,10 +199,10 @@ p + ul li{
 }
 .dropdown-item:focus,
 .dropdown-item:hover {
-	font-size: 16px;
-	font-weight: bold;
-	color: var(--primary);
-	background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary);
+  background-color: black;
 }
 /* Generic title subtitle starts here */
 .default {
@@ -296,8 +303,8 @@ p + ul li{
   margin-bottom: 15px;
 }
 
-.markdown .text-gray{
-  color:#969da3;
+.markdown .text-gray {
+  color: #969da3;
 }
 
 .markdown ol {
@@ -326,36 +333,35 @@ p + ul li{
   border-top: 1px solid #be1fda6e;
 }
 .markdown a {
-  color:var(--primary);
+  color: var(--primary);
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-weight: 400;
 }
 .markdown a:hover {
-  color:#fff;
+  color: #fff;
 }
 
 .markdown strong {
   font-weight: 700;
 }
 
-.markdown .text-center{
+.markdown .text-center {
   text-align: center !important;
 }
 
-.markdown .trait-container .trait{
+.markdown .trait-container .trait {
   border-radius: 1rem;
   background: #13151a;
   font-size: 1rem;
   height: 100%;
   position: relative;
 }
-.markdown .trait-container .trait .footer-button{
+.markdown .trait-container .trait .footer-button {
   text-align: center;
 }
 
-
-.markdown .trait-container p.summary{
+.markdown .trait-container p.summary {
   line-height: 1.4em;
   font-size: 0.9em;
   /* max-height: 8.4em;
@@ -363,36 +369,34 @@ p + ul li{
   text-align: center;
   margin-bottom: 2rem;
 }
-.markdown .trait-container h4{
+.markdown .trait-container h4 {
   font-size: 1.1em;
   font-weight: 700;
   text-align: center;
 }
-.markdown .trait-container h5{
+.markdown .trait-container h5 {
   font-size: 1em;
   font-weight: 700;
-  color:white;
+  color: white;
   text-align: center;
 }
 
-
-
-.markdown.trait-page h2{
+.markdown.trait-page h2 {
   text-align: center;
 }
-.markdown.trait-page small{
+.markdown.trait-page small {
   font-size: 0.8em;
   text-align: center;
 }
 
-.markdown.trait-page img  {
+.markdown.trait-page img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
 }
 
-#faq.markdown ol>li {
+#faq.markdown ol > li {
   font-size: 1.2rem;
   font-weight: 500;
   color: white;
@@ -455,35 +459,34 @@ p + ul li{
   animation: spinner-border 0.75s linear infinite;
 }
 
-
 /* graph */
 
 .curve {
-  width:100%;
+  width: 100%;
   padding: 4rem 0;
 }
 
-.curve .segment{
-  position:relative;
-  height:10px;
+.curve .segment {
+  position: relative;
+  height: 10px;
   background: var(--primary);
   display: block;
-  float:left;
+  float: left;
 }
 
 .curve .segment::after {
-  content:'';
+  content: "";
   display: block;
-  width:3px;
-  height:100%;
-  position:absolute;
+  width: 3px;
+  height: 100%;
+  position: absolute;
   top: 0;
   bottom: 0;
-  right:0;
-  background:#fff;
+  right: 0;
+  background: #fff;
 }
 
-.curve .segment span{
+.curve .segment span {
   display: block;
   position: absolute;
   width: 100%;
@@ -493,68 +496,67 @@ p + ul li{
   white-space: nowrap;
 }
 
-.curve .segment span.amount{
-  top:-1.5rem;
+.curve .segment span.amount {
+  top: -1.5rem;
 }
 
-.curve .segment span.price{
-  bottom:-1.5rem;
+.curve .segment span.price {
+  bottom: -1.5rem;
 }
 
 .standout {
-  color:white !important;
+  color: white !important;
   font-weight: 500 !important;
 }
 
-.triangle{
+.triangle {
   background: url(../images/sale/tri.png);
   background-size: 80% 100%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   min-height: 25px;
-
 }
 
-.triangle .label-r{
+.triangle .label-r {
   position: absolute;
-  right:0;
+  right: 0;
   line-height: 25px;
 }
-.triangle .label-l{
+.triangle .label-l {
   position: absolute;
-  left:0;
+  left: 0;
   line-height: 25px;
 }
 
 .dark .modal-content {
-  background:#212122;
-  color:white;
+  background: #212122;
+  color: white;
 }
 
-.dark .modal-title{
+.dark .modal-title {
   font-weight: 600;
 }
-.dark .modal-body{
+.dark .modal-body {
   font-size: 1.1em;
   line-height: 1.35em;
   color: white;
 }
 
 .dark .modal-body a {
-  color:var(--primary);
+  color: var(--primary);
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-weight: 400;
 }
 .dark .modal-body a:hover {
-  color:#fff;
+  color: #fff;
 }
 
-.dark .modal-header, .dark .modal-footer{
+.dark .modal-header,
+.dark .modal-footer {
   border-color: #3e3c3c;
 }
-
 
 /* Image Expandable Modal  */
 .modal {
@@ -733,7 +735,8 @@ p + ul li{
 .simplebar-scrollbar::before {
   background-color: var(--primary);
 }
-.table th, .table td {
+.table th,
+.table td {
   border-top: none;
 }
 
@@ -791,7 +794,7 @@ p + ul li{
   .hidden-sm {
     display: none !important;
   }
-  .curve .segment span{
+  .curve .segment span {
     font-size: 11px;
   }
 }
@@ -804,7 +807,7 @@ p + ul li{
   footer #copyright {
     margin: auto;
     margin-bottom: 10px;
-  } 
+  }
   .card p {
     font-size: 0.9rem;
   }
@@ -823,11 +826,10 @@ p + ul li{
     max-height: 300px;
     overflow-x: hidden;
   }
-  .triangle{
+  .triangle {
     background-size: 65% 100%;
   }
-  .curve .segment span{
+  .curve .segment span {
     font-size: 9px;
   }
 }
-

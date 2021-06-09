@@ -1,0 +1,23 @@
+<li class="nav-item dropdown">
+    <a id="navbarDropdown" href="#" class="nav-link dropdown-toggle ml-xs-1 ml-0 navbarDropdown">
+      Platforms
+    </a>
+    <div class="dropdown-menu scrollable-menu">
+        {% for item in site.data.platforms-navigation %}
+        {% if item.basepath != '' %}
+        {% assign basepath = item.basepath | append: "/" %}
+        {% endif %}
+        <a class="dropdown-item" 
+        {% if item.url%}
+        href="{{item.url}}"
+            {% if item.newTab %}
+            target="_blank"
+            {% endif %}
+        {% else %}
+            href="{{ item.path }}"
+        {% endif %}
+        >{{ item.name }}</a
+        >
+        {% endfor %}
+    </div>
+</li>

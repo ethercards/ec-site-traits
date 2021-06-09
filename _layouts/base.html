@@ -54,6 +54,12 @@
       type="text/css"
       media="all"
     />
+    <link
+    href="{{base}}/assets/css/footer.css"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+  />
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/" />
     {% endif %}
@@ -63,15 +69,9 @@
       {% include navigation.html %} {{content}}
     </div>
 
-    <!-- The Modal -->
-    <div id="image-modal" class="modal">
-      <!-- The Close Button -->
-      <span class="close">&times;</span>
-      <!-- Modal Content (The Image) -->
-      <img id="modal-content" class="modal-content" />
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
-    </div>
+    {% include modal.html %} 
+    {% include prefooter.html %} 
+    {% include footer.html %}
 
     <!-- Jquery and Js Plugins -->
     <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
@@ -83,29 +83,4 @@
     <script src="{{base}}/assets/js/cssimportant.js"></script>
     <script src="{{base}}/assets/js/custom.js?v=2"></script>
   </body>
-  <footer>
-    <div class="container">
-      <div class="footer-container" style="text-align: center; padding: 30px 15px">
-        <div id="copyright">
-          <p class="c-symbol">©</p>
-          <p>2021 Ether.cards All Rights Reserved</p>
-        </div>
-
-        <div id="contactUs">
-          <p>
-            Contact Us
-          </p>
-          <a href="https://discord.com/invite/mBwauRSJNW" target="_blank"
-            ><img src="assets/images/discord.png" alt="discord"
-          /></a>
-          <a href="https://www.reddit.com/r/Ether_Cards/" target="_blank"
-            ><img src="assets/images/reddit.png" alt="reddit"
-          /></a>
-          <a href="https://twitter.com/ether_cards" target="_blank"
-            ><img src="assets/images/twitter.png" alt="twitter"
-          /></a>
-        </div>
-      </div>
-    </div>
-  </footer>
 </html>

@@ -1,0 +1,6 @@
+- name: Ether Cards
+  path: https://ether.cards/cards.html
+- name: Gallery/Explore
+  path: https://explorer.ether.cards/#/
+- name: team
+  path: https://traits.ether.cards/

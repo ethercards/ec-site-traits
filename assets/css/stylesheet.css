@@ -207,7 +207,7 @@ body {
 .navbar-nav {
 	height: auto;
 	background: #FFFFFF;
-	padding: 0 1.5rem;
+	/* padding: 0 1.5rem; */
 	display: flex;
 	align-items: center;
 	-webkit-transition: 0.5s all ease; /* For Safari 3.1 to 6.0 */

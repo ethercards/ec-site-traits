@@ -1,0 +1,4 @@
+- name: events
+  path: https://ether.cards/events.html
+- name: Business
+  path: https://bizdev.ether.cards/

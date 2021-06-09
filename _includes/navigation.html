@@ -19,42 +19,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent"  style="place-content: flex-end;">
       <ul class="navbar-nav navbar-center">
         <li class="nav-item">
-          <a
-            class="nav-link js-scroll-trigger"
-            href="http://ether.cards/"
+          <a class="nav-link js-scroll-trigger" href="http://ether.cards/"
             >home</a
           >
         </li>
+        {% include nav_cards_dropdown.html %}
+        {% include nav_platforms_dropdown.html %}
+        {% include nav_about_dropdown.html %}
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://explorer.ether.cards/">gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://explorer.ether.cards/#/wallet">wallet</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://forge.ether.cards/">forge</a>
-        </li>
-        {% include nav_artists_dropdown.html %}
-        <li class="nav-item">
-          <a
-            class="nav-link js-scroll-trigger"
-            href="https://docs.ether.cards/faq.html"
-            >faq</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link js-scroll-trigger"
-            href="/"
-            >traits</a
-          >
-        </li>
-        {% include nav_docs_dropdown.html %}
-        <li class="nav-item">
-          <a
-            class="nav-link js-scroll-trigger"
-            href="https://blog.ether.cards/"
-            >blog</a
+          <a class="nav-link js-scroll-trigger" href="https://explorer.ether.cards/#/wallet"
+            >WALLET</a
           >
         </li>
       </ul>
