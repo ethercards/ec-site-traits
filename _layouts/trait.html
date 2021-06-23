@@ -23,25 +23,25 @@ layout: base
 
             <div class="stats mt-4">
               <h5 class="text-center text-gray mb-2">
-                Category: {{page.category}}
+                Category: <span class="font-weight-normal">{{page.category}}</span>
               </h5>
               <h5 class="text-center text-gray mb-2">
-                Applies to: {{page.card_types}}
+                Applies to: <span class="font-weight-normal">{{page.card_types}}</span>
               </h5>
               <h5 class="text-center text-gray mb-2">
-                Max issuance: {{page.max_issuance}}
+                Max issuance: <span class="font-weight-normal">{{page.max_issuance}}</span>
               </h5>
               <h5 class="text-center text-gray mb-2">
-                Burnt upon use: {{page.burnt_upon_use}}
+                Burnt upon use: <span class="font-weight-normal">{{page.burnt_upon_use}}</span>
               </h5>
               <h5 class="text-center text-gray mb-2">
-                Effect of transferring cards: {{page.effect_of_transferring}}
+                Effect of transferring cards: <span class="font-weight-normal">{{page.effect_of_transferring}}</span>
               </h5>
-              <h5 class="text-center text-gray mb-2">Limit: {{page.limit}}</h5>
+              <h5 class="text-center text-gray mb-2">Limit: <span class="font-weight-normal">{{page.limit}}</span></h5>
 
               {% if page.community_trait %}
               <h5 class="text-center text-gray mb-2">
-                Community Trait proposed by: {{page.community_trait}}
+                Community Trait proposed by: <span class="font-weight-normal">{{page.community_trait}}</span>
               </h5>
               {% endif %}
             </div>
