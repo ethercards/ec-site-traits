@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Extra Limited Edition Trait Slot
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Limited Edition Traits give powerful benefits, lifetime features and a customizable experience. Card holders will be able select Limited Edition Traits for each of the slots on their cards, and to evolve their benefits through Skill Trees. The Extra Limited Edition Trait slot means that you will be able to choose an extra Limited Edition Trait for your card.
 

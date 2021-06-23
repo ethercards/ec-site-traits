@@ -2,7 +2,7 @@
 trait_id: 124
 type: random_edition
 name: True Name
-image: PLACEHOLDER.png
+image: truename.png
 summary: Allows the cardholder to name the Card’s Accidental Collaboration artwork
 card_types: All
 category: '-'
@@ -16,9 +16,6 @@ community_trait: '@Eskalexia'
 layout: trait
 ---
 
-## True Name
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 True Name gives you the ability to give your Accidental Collaboration artwork a name that will be recorded in the card’s metadata and displayed anywhere that the card appears.
 

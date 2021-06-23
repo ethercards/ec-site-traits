@@ -2,7 +2,7 @@
 trait_id: 118
 type: random_edition
 name: Fluid
-image: PLACEHOLDER.png
+image: fluid.png
 summary: Allows the cardholder to reroll card layers once a month.
 card_types: All
 category: Experimental
@@ -15,10 +15,6 @@ period_of_validity: '-'
 community_trait: '@Sonic'
 layout: trait
 ---
-
-## Fluid
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 With the Fluid Trait, your card becomes as changeable as the moon. **Once a month, you can reroll any or all of the layers that make up the Accidental Collaboration artwork on your card.**
 

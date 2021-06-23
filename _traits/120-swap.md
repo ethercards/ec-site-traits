@@ -16,9 +16,6 @@ community_trait: '@booyah2'
 layout: trait
 ---
 
-## Swap
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait allows you to **swap your card for a randomly selected card in the vault** of the same type (e.g. Founder for Founder, Alpha for Alpha, OG for OG). This will only be available, of course, as long as there are cards in the vault.
 

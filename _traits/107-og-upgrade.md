@@ -2,7 +2,7 @@
 trait_id: 107
 type: random_edition
 name: OG Upgrade
-image: og-upgarde.png
+image: og-upgrade.png
 summary: The cardholder can replace this card with an OG card from the Ether Cards vault, chosen by the Ether Cards team.
 card_types: Founder & Alpha
 category: Upgrade
@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## OG Upgrade
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This trait lets you upgrade a Founder or Alpha card into an OG. When you use this Trait, the Ether Cards team will select an OG card out of the vault and deliver it to you in exchange for your Founder or Alpha card.
 

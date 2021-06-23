@@ -2,7 +2,7 @@
 trait_id: 134
 type: random_edition
 name: New Fan
-image: PLACEHOLDER.png
+image: new-fan.png
 summary: A vanity Trait that moves to the most recently moved card of specified artist.
 card_types: All
 category: '-'
@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## New Fan
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
  A Vanity Trait that moves between cards that feature art from an individual artist. It moves to the card that was most recently purchased/traded. The featured artist has the option to customize the trait with a reward, such as an art drop. **(Note: This Trait is still in feasibility testing).**
 

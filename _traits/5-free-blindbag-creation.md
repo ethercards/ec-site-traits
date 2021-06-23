@@ -15,10 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Free Blind Bag Creation
-
-![icon](/assets/images/trait-icons/{{page.image}})
-
 This Trait gives you the ability to create a Blind Bag event on the Ether Cards platform for free. This card will have a limit to the number of times it can be used per month. 
 
 <small>*Terms and conditions apply.</small>

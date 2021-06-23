@@ -6,29 +6,58 @@ layout: base
   <div class="row">
     <div class="col-lg-8 ml-auto mr-auto">
       <div class="markdown trait-page">
-        {{content}}
+        <div
+          class="trait-container mb-4 flex ml-auto mr-auto"
+          style="max-width: 250px"
+        >
+          <div class="trait p-4 flex-column align-items-center d-flex">
+            <img
+              style="
+                display: block;
+                margin: 10px auto 10px auto;
+                max-height: 50px;
+              "
+              src="{{base}}/assets/images/trait-icons/{{page.image}}"
+            />
+            <h4 class="text-center">{{page.name}}</h4>
 
-        <div class="stats mt-4">
-          <p class="my-0">Category: <span class="text-white">{{page.category}}</span> </p>
-          <p class="my-0">Applies to: <span class="text-white">{{page.card_types}}</span> </p>
-          <p class="my-0">Max issuance: <span class="text-white">{{page.max_issuance}}</span> </p>
-          <p class="my-0">Burnt upon use: <span class="text-white">{{page.burnt_upon_use}}</span> </p>
-          <!-- <p class="my-0">Max Usages: <span class="text-white">{{page.max_usages}}</span> </p> -->
-          <p class="my-0">Effect of transferring cards: <span class="text-white">{{page.effect_of_transferring}}</span> </p>
-          <p class="my-0">Limit: <span class="text-white">{{page.limit}}</span> </p>
-          <!-- <p class="my-0">Period of validity: <span class="text-white">{{page.period_of_validity}}</span> </p> -->
-          {% if page.community_trait %}
-            <p class="my-0">Community Trait proposed by: <span class="text-white">{{page.community_trait}}</span> </p>
-          {% endif %}
+            <div class="stats mt-4">
+              <h5 class="text-center text-gray mb-2">
+                Category: {{page.category}}
+              </h5>
+              <h5 class="text-center text-gray mb-2">
+                Applies to: {{page.card_types}}
+              </h5>
+              <h5 class="text-center text-gray mb-2">
+                Max issuance: {{page.max_issuance}}
+              </h5>
+              <h5 class="text-center text-gray mb-2">
+                Burnt upon use: {{page.burnt_upon_use}}
+              </h5>
+              <h5 class="text-center text-gray mb-2">
+                Effect of transferring cards: {{page.effect_of_transferring}}
+              </h5>
+              <h5 class="text-center text-gray mb-2">Limit: {{page.limit}}</h5>
 
-
-
+              {% if page.community_trait %}
+              <h5 class="text-center text-gray mb-2">
+                Community Trait proposed by: {{page.community_trait}}
+              </h5>
+              {% endif %}
+            </div>
+          </div>
         </div>
+
         <div class="text-center">
-          <span class="btn btn-peach btn-outline mt-5" onClick="window.history.back()">BACK</span>
+          {{content}}
+
+          <span
+            class="btn btn-peach btn-outline mt-5"
+            onClick="window.history.back()"
+            >BACK</span
+          >
         </div>
       </div>
-
     </div>
   </div>
 </div>

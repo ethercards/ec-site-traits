@@ -2,7 +2,7 @@
 trait_id: 147
 type: limited_edition
 name: 7 Leaf Lucky Clover
-image: PLACEHOLDER.png
+image: 7-leaf-clover.png
 summary: Receive a much higher chance of obtaining rare cards when purchasing Blind Bags
 card_types: All
 category: '-'
@@ -14,10 +14,6 @@ limit: '-'
 period_of_validity: '-'
 layout: trait
 ---
-
-## 7 Leaf Lucky Clover
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait gives you a big boost in the chance to receive a rare card in any Blind Bag purchased on the Ether Cards platform. This card will have a limit to the number of times it can be used per month.
 

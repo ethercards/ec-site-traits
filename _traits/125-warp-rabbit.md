@@ -15,9 +15,6 @@ period_of_validity: '-'
 community_trait: '@PipsquEECS (Inspired by @bitsikka)'
 layout: trait
 ---
-## Warp Rabbit
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Warp Rabbit is an experiment in randomization. Every time Warp Rabbit is used, it jumps to a different card and takes on a new shape. Warp Rabbit might emerge with Randomized Edition Trait benefits, it might drop Dust onto a card, or it might be a portal for an artwork airdrop. Maybe it will drop an “arsonist” Trait onto your card if you use the Forge. Maybe it will hang out on your card for a while and simply leap away.
 

@@ -16,9 +16,6 @@ community_trait: '@scorpiomoon'
 layout: trait
 ---
 
-## Gravity
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Is gravity the universal glue? Einstein thought everything is relative. In E=mc², is gravity the equalizer, multiplier, square – or the result of all operations together in unison?
  

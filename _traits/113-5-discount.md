@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## 5% Discount
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait gives you a **one-time 5% discount on any platform service** (max: 1 ETH value). Services include both creating and participating in events, such as raffles, blind bags, and puzzles. After using the discount, the trait is burned.
 

@@ -15,10 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Artist Trait
-
-![icon](/assets/images/trait-icons/{{page.image}})
-
 TBA
 
 <small>*Terms and conditions apply.</small>

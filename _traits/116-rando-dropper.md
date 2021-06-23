@@ -15,10 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Rando Dropper
-
-![icon](/assets/images/trait-icons/{{page.image}})
-
 Rando Dropper **drops a Random Edition Trait onto your card, replacing it every month** with a new Random Edition Trait. You can burn Rando Dropper to keep the current Random Trait permanently.
 
 <small>*Terms and conditions apply.</small>

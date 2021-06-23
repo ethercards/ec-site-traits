@@ -15,10 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Perfect
-
-![icon](/assets/images/trait-icons/{{page.image}})
-
 TBA
 
 <small>*Terms and conditions apply.</small>

@@ -2,7 +2,7 @@
 trait_id: 159
 type: conditional
 name: Redemption
-image: PLACEHOLDER.png
+image: redemtion.png
 summary: Given to cards that have physical items attached to them
 card_types: Conditional
 category: '-'
@@ -14,10 +14,6 @@ limit: '-'
 period_of_validity: '-'
 layout: trait
 ---
-
-## Redemption
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 TBA
 

@@ -2,7 +2,7 @@
 trait_id: 122
 type: random_edition
 name: Redeem
-image: PLACEHOLDER.png
+image: redeem.png
 summary: Allows the cardholder to burn this Trait in exchange for a physical version of their Ether Card
 card_types: All
 category: Redeem
@@ -16,9 +16,6 @@ community_trait: '@OrdoUniverse'
 layout: trait
 ---
 
-## Redeem
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Burn this trait to **receive a physical version of your Ether Card.** 
 

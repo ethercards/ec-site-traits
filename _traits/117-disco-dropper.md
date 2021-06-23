@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Disco Dropper
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Disco Dropper **drops a Discount Trait onto your card, replacing it every month** with a new Discount Trait. You can burn Disco Dropper to keep the current Discount Trait permanently. 
 

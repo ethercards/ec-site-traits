@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Reroll
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 All cards will be able to do a Random Edition Trait reroll that removes the current set of Random Traits and replaces them with a new set of Random Traits.
 
