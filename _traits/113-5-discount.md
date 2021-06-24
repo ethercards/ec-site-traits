@@ -2,7 +2,7 @@
 trait_id: 113
 type: random_edition
 name: 5% Discount
-image: PLACEHOLDER.png
+image: discount-5-1.png
 summary: Provides a one-time 5% discount to the cardholder for any service on the Ether Cards events platform.
 card_types: All
 category: Discount
