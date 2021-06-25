@@ -2,7 +2,7 @@
 trait_id: 157
 type: conditional
 name: Creator
-image: PLACEHOLDER.png
+image: creator.png
 summary: Given to Ether Cards team members
 card_types: Conditional
 category: '-'
@@ -14,10 +14,6 @@ limit: '-'
 period_of_validity: '-'
 layout: trait
 ---
-
-## Creator
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 TBA
 

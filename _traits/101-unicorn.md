@@ -14,9 +14,6 @@ limit: '-'
 period_of_validity: '-'
 layout: trait
 ---
-## Unicorn
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Unicorns are an age-old symbol of transformation, and this trait lives among them in the fields of ever-unfolding flowers.
 

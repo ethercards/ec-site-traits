@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Free Ticket
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This **trait gives you one free ticket to any raffle that takes place on the Ether Cards platform.** 
 

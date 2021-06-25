@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 @font-face {
   font-family: "subspace";
@@ -257,10 +257,15 @@ p + ul li {
 .disclaimer p {
   font-style: italic;
   font-size: 13px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Generic title subtitle ends here */
 
 /* Default button starts here*/
+.btn {
+  font-size: 0.85rem;
+}
 .btn-action.btn-outline {
   color: #80729c !important;
   border: 2px solid #80729c !important;
@@ -297,7 +302,7 @@ p + ul li {
 .markdown h2 {
   font-size: 1.85rem;
   font-weight: 800;
-  color: var(--primary);
+  color: white;
   line-height: 1.2;
   margin-top: 15px;
 }
@@ -305,7 +310,7 @@ p + ul li {
 .markdown h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--primary);
+  color: white;
   line-height: 1.2;
   margin-top: 15px;
 }
@@ -322,13 +327,13 @@ p + ul li {
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0.01em;
-  color: #969da3;
+  color: #9a989a;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .markdown .text-gray {
-  color: #969da3;
+  color: #838484 !important;
 }
 
 .markdown ol {
@@ -399,7 +404,7 @@ p + ul li {
   text-align: center;
 }
 .markdown .trait-container h5 {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 700;
   color: white;
   text-align: center;
@@ -436,6 +441,67 @@ p + ul li {
   scroll-margin-top: 3em;
 }
 /* css for markdown pages ends  */
+
+.faq-item {
+  border-radius: 10px;
+  border: none;
+  background-color: #13151a;
+  padding: 1rem;
+}
+
+.faq-item button {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.faq-item .item-head {
+  cursor: pointer;
+}
+
+.faq-item p {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.6em;
+  color: #A2A9B0;
+  padding-bottom: 20px
+}
+
+.faq-item .item-head h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  padding-right: 2em;
+  text-align: left;
+  transition: color 0.2s linear;
+}
+
+.faq-item .item-head.collapsed h3 {
+  color: #a2a9b0;
+}
+.faq-item button span::after {
+  content: " ";
+  display: block;
+  width: 1.15em;
+  height: 1.15em;
+  background: url(../images/icon_collapse.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.faq-item button.collapsed span::after {
+  content: " ";
+  width: 1.15em;
+  height: 1.15em;
+  background: url(../images/icon_expand.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* thank you popup starts */
 .thank-you-popup {

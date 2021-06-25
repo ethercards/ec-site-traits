@@ -1,12 +1,11 @@
 
 .btn-peach, .btn-outline.btn-peach:hover {
     border-color:var(--primary) !important;
-    border: solid 3px var(--primary) !important;
+    border: solid 2px var(--primary) !important;
     background-color: var(--primary);
     color: black !important;
     white-space: pre-wrap;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.8rem 1.1rem;
     border-radius: 0.5rem;
   }
   

@@ -2,7 +2,7 @@
 trait_id: 149
 type: conditional
 name: Punk Battle Ticket
-image: battle-royal-punk.png
+image: punkbattle.png
 summary: Entry ticket given to every card to compete in the Ether Card Battle Royale event to try and win a Crypto Punk.
 card_types: All
 category: '-'
@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Punk Battle Ticket
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 A range of Crypto Punks are available to be won through Battle Royale events. In order to participate in these events, you must hold one of these Traits.
 

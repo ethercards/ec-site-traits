@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## 3 Extra Ticket
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait gives you three extra tickets whenever you participate in a Ticket event on the Ether Cards platform. This card will have a limit to the number of times it can be used per month. 
 

@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Lucky Reroll
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 All cards will be able to do a Random Edition Trait reroll that removes the current set of Random Traits and replaces them with a new set of Random Traits. Lucky Reroll **gives the card the same chances of getting any Random Trait as an OG when activated**, which means 3x the chances of getting traits and a guarantee of at least 3 traits.
 

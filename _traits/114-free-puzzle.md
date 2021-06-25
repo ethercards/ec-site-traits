@@ -2,7 +2,7 @@
 trait_id: 140
 type: limited_edition
 name: Free Puzzle Creation
-image: PLACEHOLDER.png
+image: free-puzzle.png
 summary: Waives the fee for creating a Puzzle event on the Ether Cards event platform.
 card_types: All
 category: Discount
@@ -14,10 +14,6 @@ limit: '-'
 period_of_validity: '-'
 layout: trait
 ---
-
-## Free Puzzle Creation
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait gives you the ability to create a Puzzle event on the Ether Cards platform for free. This card will have a limit to the number of times it can be used per month.  
 

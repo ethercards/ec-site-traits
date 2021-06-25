@@ -16,10 +16,6 @@ community_trait: '@Empath Acrobat'
 layout: trait
 ---
 
-## New Commons
-
-![icon](/assets/images/trait-icons/{{page.image}})
-
 With this trait, you can **reroll the “common” layers on your accidental artwork(s).** You are then presented with the option of keeping your current layer or using the rerolled one.
 
 <small>*Terms and conditions apply.</small>

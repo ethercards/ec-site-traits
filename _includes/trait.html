@@ -1,24 +1,20 @@
-<div class="col-md-3 trait-container mb-4 flex">
-    <div class="trait p-4 flex-column align-items-center d-flex">
-      <img
-        style="
-          display: block;
-          margin: 10px auto 25px auto;
-          max-height: 32px;
-        "
-        src="{{base}}/assets/images/trait-icons/{{trait.image}}"
-      />
-      <h4 class="text-center">{{trait.name}}</h4>
-      <h5 class="text-center mt-3">
-        ID: <span class="text-gray">{{trait.trait_id}}</span>
-      </h5>
-      <h5 class="text-center mt-3">
-        Applies to: <span class="text-gray">{{trait.card_types}}</span>
-      </h5>
-      <p class="summary mt-4">{{trait.summary}}</p>
+<div class="col-sm-6 col-md-4 col-lg-3 trait-container mb-4 flex">
+  <div class="trait p-4 flex-column align-items-center d-flex">
+    <img
+      style="display: block; margin: 10px auto 15px auto; max-height: 50px"
+      src="{{base}}/assets/images/trait-icons/{{trait.image}}"
+    />
+    <h4 class="text-center">{{trait.name}}</h4>
+    <h5 class="text-center mt-3 text-gray">
+      ID: <span class="font-weight-normal">{{trait.trait_id}}</span>
+    </h5>
+    <h5 class="text-center mt-3 text-gray mb-1">
+      Applies to: <span class="font-weight-normal">{{trait.card_types}}</span>
+    </h5>
+    <p class="summary mt-4">{{trait.summary}}</p>
 
-      <div class="footer-button mt-auto">
-        <a class="btn btn-peach btn-outline" href="{{trait.url}}">MORE</a>
-      </div>
+    <div class="footer-button mt-auto">
+      <a class="btn btn-peach btn-outline" href="{{trait.url}}">MORE</a>
     </div>
   </div>
+</div>

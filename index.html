@@ -5,88 +5,81 @@ layout: base
 <div class="container">
   <div class="markdown">
     <h2 class="text-center">Traits</h2>
-
-    <p>
-      Ether Cards have a large variety of Traits that provide cardholders 
-      with benefits for both the digital and physical world. Traits can be 
-      divided into three categories: Limited Edition, Random Edition, and 
-      Conditional Traits.
-    </p>
-    <p>
-      Limited Edition Traits are the most valuable and powerful Traits. These 
-      Traits never expire and will never be offered again. Users can select 
-      which Trait(s) they would like to assign to their Limited Trait Slots. 
-      Founder Cards have one slot, Alphas have two, and OGs have three. Most 
-      Limited Edition Traits will have the ability to level up.
-    </p>
-    <p>
-      Random Edition Traits vary in their benefits and value, and are assigned
-      randomly to cards. Some cards will have lots of these Traits, while others
-      may only contain one or in some rare cases, none.
-    </p>
-    <p>
-      Conditional Traits generally have a set value and are only applied
-      to cards that meet the conditional requirements.
-    </p>
-    <p>
-      Many of these Traits can be applied to partner collections that 
-      are created using the EtherCards platform.
-    </p>
-
-    <h3 class="mb-3 mt-5">Limited Edition Traits</h3>
-
-    <ul class="mb-5">
-      <li>Discount Traits</li>
-      <li>Creation Traits</li>
-      <li>Ticket Traits</li>
-      <li>Lucky Traits</li>
-    </ul>
+    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <div class="text-center mb-5 pb-3">
+        <p>
+          Traits Ether Cards have a large variety of Traits that provide
+          cardholders with benefits for both the digital and physical world.
+          Traits can be divided into three categories: Limited Edition, Random
+          Edition, and Conditional Traits. Many of these Traits can be applied
+          to partner collections that are created using the EtherCards platform.
+        </p>
+      </div>
 
 
+      {% assign collapsible = site.data.traits-collapsible %}
 
-    
-    {% assign limited = site.traits | where:"type", "limited_edition" %}
+      {% for item in collapsible %}
+        {% assign itemId = item.name | downcase | replace: ' ', "-" %}
+        <div id="{{itemId}}">
+          <div class="faq-item mb-3" id="to-1">
+            <button
+              class="collapsed item-head d-flex justify-content-between"
+              data-toggle="collapse"
+              data-target="#{{forloop.index}}"
+              aria-expanded="false"
+              aria-controls="{{forloop.index}}"
+            >
+              <h3>{{item.title}}</h3>
+              <span></span>
+            </button>
 
-    <div class="row">
-      {% for trait in limited %}
-        {% include trait.html trait=trait %}
+            <div class="collapse" id="{{forloop.index}}">
+              <p class="p-2 mt-3">
+                {{item.desc}}
+              </p>
+            </div>
+          </div>
+        </div>
       {% endfor %}
     </div>
 
+    <h2 class="text-center mb-5 mt-5">Limited Edition Traits</h2>
 
-    <h3 class="mb-3 my-5">Random Edition Traits</h3>
+    {% assign limited = site.traits | where:"type", "limited_edition" %}
+
+    <div class="row">
+      {% for trait in limited %} {% include trait.html trait=trait %} {% endfor
+      %}
+    </div>
+
+    <h2 class="text-center mb-5 mt-3">Random Edition Traits</h2>
 
     {% assign random = site.traits | where:"type", "random_edition" %}
 
     <div class="row">
-      {% for trait in random %}
-        {% include trait.html trait=trait %}
-      {% endfor %}
+      {% for trait in random %} {% include trait.html trait=trait %} {% endfor
+      %}
     </div>
 
-
-
-    <h3 class="mb-3 my-5">Conditional Traits</h3>
+    <h2 class="text-center mb-5 mt-3">Conditional Traits</h2>
 
     {% assign conditional = site.traits | where:"type", "conditional" %}
 
     <div class="row">
-      {% for trait in conditional %}
-        {% include trait.html trait=trait %}
-      {% endfor %}
+      {% for trait in conditional %} {% include trait.html trait=trait %} {%
+      endfor %}
     </div>
 
-
-
-
-    <div class="row text-left disclaimer">
+    <div class="row text-center disclaimer">
       <p>
-        For legal purposes, we have to include this disclaimer. This of course 
-        doesn’t mean that we won’t do our absolute best to make every one of the 
-        Traits possible, but since this is new technology and new legal territory, 
-        we need to make sure that the terms and conditions are in order.
+        For legal purposes, we have to include this disclaimer. This of course
+        doesn’t mean that we won’t do our absolute best to make every one of the
+        Traits possible, but since this is new technology and new legal
+        territory, we need to make sure that the terms and conditions are in
+        order.
       </p>
-      <p>  
+      <p>
         All Traits presented here will continue to be iterated and can change,
         be adapted or removed should technical, legal or other challenges arise.
         Ether Cards makes no representation that these Traits will increase the

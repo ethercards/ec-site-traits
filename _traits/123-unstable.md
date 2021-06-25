@@ -16,9 +16,6 @@ community_trait: '@Eskalexia'
 layout: trait
 ---
 
-## Unstable
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 Each time this card changes wallets one Random Edition Trait changes to a different Random Edition Trait.
 

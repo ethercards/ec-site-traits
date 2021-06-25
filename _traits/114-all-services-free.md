@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## All Services Free
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This Trait gives you the ability to create any event on the Ether Cards platform for free. This card will have a limit to the number of times it can be used per month. This card can only be obtained by upgrading your Traits. 
 

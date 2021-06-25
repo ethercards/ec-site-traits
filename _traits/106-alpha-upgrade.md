@@ -15,9 +15,6 @@ period_of_validity: '-'
 layout: trait
 ---
 
-## Alpha Upgrade
-
-![icon](/assets/images/trait-icons/{{page.image}})
 
 This trait lets you upgrade a Founder card into an Alpha. When you use this Trait, the Ether Cards team will select an Alpha card out of the vault and deliver it to you in exchange for your Founder card.
 
