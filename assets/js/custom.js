@@ -206,7 +206,7 @@ $(document).ready(function () {
       }
     }
 
-    const href = location.href.includes(".html") ? locatiton.href : location.href + ".html"
+    const href = location.href.includes(".html") ? location.href : location.href + ".html"
 
     // Add active state to navbar
     $('.navbar li.active').removeClass('active');
