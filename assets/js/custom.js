@@ -206,12 +206,15 @@ $(document).ready(function () {
       }
     }
 
-    const href = location.href.includes(".html") ? location.href : location.href + ".html"
+    const href = location.pathname == "/" ? location.origin : location.href;
 
     // Add active state to navbar
     $('.navbar li.active').removeClass('active');
     $('.navbar a[href="' + href + '"]').closest('li').addClass('active');
     $('.navbar a.dropdown-item[href="' + href + '"]').addClass('active');
+
+    $('.navbar a[href="' + href + '.html"]').closest('li').addClass('active');
+    $('.navbar a.dropdown-item[href="' + href + '.html"]').addClass('active');
 
     function resizeArtWrapper() {
       // Resize the height
