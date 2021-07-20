@@ -216,6 +216,9 @@ $(document).ready(function () {
     $('.navbar a[href="' + href + '.html"]').closest('li').addClass('active');
     $('.navbar a.dropdown-item[href="' + href + '.html"]').addClass('active');
 
+    $('.navbar a[href="' + href + '/"]').closest('li').addClass('active');
+    $('.navbar a.dropdown-item[href="' + href + '/"]').addClass('active');
+
     function resizeArtWrapper() {
       // Resize the height
       $('.media-wrapper').each(function () {
