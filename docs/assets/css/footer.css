@@ -1,0 +1,236 @@
+#pre-footer {
+  background: #111317;
+  padding: 50px 0;
+}
+@media (max-width: 767px) {
+  #pre-footer .col,
+  #pre-footer .newsletter-title .h4,
+  #pre-footer .newsletter-title h4 {
+    text-align: center;
+  }
+  #pre-footer .col {
+    flex: none;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #pre-footer .mb-3 {
+    padding-right: 40px;
+  }
+}
+#pre-footer p {
+  color: #9a989a;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+#pre-footer .h4,
+#pre-footer h4 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#pre-footer .h5,
+#pre-footer h5 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+#pre-footer input {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0 20px;
+}
+#pre-footer .btn-purple-fill {
+  background: #be1fda;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+#pre-footer .btn-purple-fill:active,
+#pre-footer .btn-purple-fill:hover {
+  background: #841597;
+  color: #fff;
+}
+#pre-footer ul {
+  list-style: none;
+  padding: 0;
+
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+#pre-footer ul li {
+  padding-bottom: 10px;
+}
+#pre-footer ul li a {
+  color: #9a989a;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in-out, color 0.15s,
+    background-color 0.15s ease-in-out;
+}
+#pre-footer ul li a:hover {
+  color: #be1fda;
+  font-weight: 400;
+  opacity: 1;
+}
+#pre-footer .social-icons img {
+  height: 22px;
+  margin-right: 10px;
+}
+#pre-footer .social-icons img:active,
+#pre-footer .social-icons img:hover {
+  filter: sepia(50%) saturate(2000%) brightness(70%) hue-rotate(214deg);
+}
+footer {
+  background: #000;
+  padding: 30px 0;
+}
+footer p {
+  font-size: 1rem;
+  color: #c5c5c5;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  opacity: 0.4;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+footer img {
+  margin-top: 1px;
+  width: 40%;
+}
+
+.text-m-r {
+  text-align: right !important;
+}
+@media (max-width: 767px) {
+  .text-m-r {
+    text-align: center !important;
+  }
+}
+
+.text-m-l {
+  text-align: left !important;
+}
+@media (max-width: 767px) {
+  .text-m-l {
+    text-align: center !important;
+  }
+}
+
+/* EMAIL SUBSCRIPTION MODAL */
+
+.spinner-border {
+  display: none !important;
+  height: 1rem !important;
+  width: 1rem !important;
+  margin-bottom: 3px;
+  vertical-align: middle;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+.spinner-border.loading {
+  display: inline-block !important;
+}
+
+#thankYouPopup {
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#thankYouPopup.modal.show {
+  display: flex;
+  flex-direction: column;
+}
+
+#thankYouPopup .modal-header {
+  border: 0px;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#thankYouPopup .modal-header button:focus {
+  outline: none;
+}
+#thankYouPopup .modal-header button:hover {
+  filter: brightness(0.9);
+}
+
+#thankYouPopup .modal-header button.close {
+  position: absolute;
+  z-index: 1;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  right: 10%;
+  top: 10%;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+#thankYouPopup .modal-dialog {
+  margin: auto;
+}
+#thankYouPopup .modal-content {
+  background-color: transparent;
+}
+#thankYouPopup .modal-body {
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#thankYouPopup .modal-backdrop.show {
+  opacity: 0;
+}
+.thank-you-popup {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.thank-you-popup img {
+  display: block;
+  width: 80px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.thank-you-popup p {
+  font-size: 18px;
+  margin-bottom: 27px;
+  color: white;
+}
+.thank-you-popup h2 {
+  color: var(--primary);
+}
+
+.thank-you-popup a {
+  color: white !important;
+}
+.thank-you-popup a.btn:hover {
+  opacity: 1;
+}
