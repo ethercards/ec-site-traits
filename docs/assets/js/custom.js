@@ -63,46 +63,46 @@ $(document).ready(function () {
         $(this).removeClass('in').addClass('collapse');
       }
     });
-    
+
     const dropdowns = $('.dropdown')
     $(window).on("load resize", function () {
       var $window = this;
-      dropdowns.each(function() {
-          var $dropdown = $(this);
-          var $navbarDropdown = $dropdown.find(".navbarDropdown");
-          var $dropdownMenu = $dropdown.find(".dropdown-menu")[0];
-          var showClass = "show";
-          $navbarDropdown.off("click");
-          if ($window.matchMedia("(min-width: 768px)").matches) {
-            $dropdown.hover(
-              function () {
-                const $this = $(this);
-                $this.addClass(showClass);
-                $this.find($dropdownMenu).addClass(showClass);
-              },
-              function () {
-                const $this = $(this);
-                $this.removeClass(showClass);
-                $this.find($dropdownMenu).removeClass(showClass);
-              }
-            );
-          } else {
-            $dropdown.off("mouseenter mouseleave");
-            $navbarDropdown.click(function (e) {
-              e.preventDefault();
-              const $this = $dropdown;
-              console.info($this)
-              if($this.hasClass(showClass) || $this.find($dropdownMenu).hasClass(showClass)) {
-                $this.removeClass(showClass);
-                $this.find($dropdownMenu).removeClass(showClass);
-              } else {
-                $this.addClass(showClass);
-                $this.find($dropdownMenu).addClass(showClass);
-              }
-            });
-          }
-        })
-      });
+      dropdowns.each(function () {
+        var $dropdown = $(this);
+        var $navbarDropdown = $dropdown.find(".navbarDropdown");
+        var $dropdownMenu = $dropdown.find(".dropdown-menu")[0];
+        var showClass = "show";
+        $navbarDropdown.off("click");
+        if ($window.matchMedia("(min-width: 768px)").matches) {
+          $dropdown.hover(
+            function () {
+              const $this = $(this);
+              $this.addClass(showClass);
+              $this.find($dropdownMenu).addClass(showClass);
+            },
+            function () {
+              const $this = $(this);
+              $this.removeClass(showClass);
+              $this.find($dropdownMenu).removeClass(showClass);
+            }
+          );
+        } else {
+          $dropdown.off("mouseenter mouseleave");
+          $navbarDropdown.click(function (e) {
+            e.preventDefault();
+            const $this = $dropdown;
+            console.info($this)
+            if ($this.hasClass(showClass) || $this.find($dropdownMenu).hasClass(showClass)) {
+              $this.removeClass(showClass);
+              $this.find($dropdownMenu).removeClass(showClass);
+            } else {
+              $this.addClass(showClass);
+              $this.find($dropdownMenu).addClass(showClass);
+            }
+          });
+        }
+      })
+    });
 
     /*-----------------------------------
     ----------- Scroll To Top -----------
@@ -175,7 +175,7 @@ $(document).ready(function () {
       $('#image-modal').css('display', 'flex');
       var imagePath = img.attr('src')
       var title = img.attr('alt')
-      
+
       $('#modal-content').attr('src', imagePath)
       $('#caption').text(title)
       expanded = true;
@@ -206,55 +206,63 @@ $(document).ready(function () {
       }
     }
 
+    const href = location.pathname == "/" ? location.origin : location.href;
+
     // Add active state to navbar
     $('.navbar li.active').removeClass('active');
-    $('.navbar a[href="' + location.pathname + '"]').closest('li').addClass('active');
-    $('.navbar a.dropdown-item[href="' + location.pathname + '"]').addClass('active');
+    $('.navbar a[href="' + href + '"]').closest('li').addClass('active');
+    $('.navbar a.dropdown-item[href="' + href + '"]').addClass('active');
+
+    $('.navbar a[href="' + href + '.html"]').closest('li').addClass('active');
+    $('.navbar a.dropdown-item[href="' + href + '.html"]').addClass('active');
+
+    $('.navbar a[href="' + href + '/"]').closest('li').addClass('active');
+    $('.navbar a.dropdown-item[href="' + href + '/"]').addClass('active');
 
     function resizeArtWrapper() {
       // Resize the height
       $('.media-wrapper').each(function () {
-        if($(this).is(':visible')) {
+        if ($(this).is(':visible')) {
           var width = $(this).width();
           $(this).height(width);
           $(this).css('min-height', width);
         }
       });
     }
-    $(window).on('load', function() {
+    $(window).on('load', function () {
       resizeArtWrapper();
-      $('.card .content').each(function() {
+      $('.card .content').each(function () {
         new SimpleBar(this, {
-          scrollbarMinSize: 50, 
+          scrollbarMinSize: 50,
           scrollbarMaxSize: 50
         })
       })
-      $('.trait-box').each(function() {
+      $('.trait-box').each(function () {
         new SimpleBar(this, {
-          scrollbarMinSize: 50, 
+          scrollbarMinSize: 50,
           scrollbarMaxSize: 50
         })
       })
     })
-  
+
     $(window).resize(function () {
-      if($(window).width() != pageWidth){
+      if ($(window).width() != pageWidth) {
         pageWidth = $(window).width();
         resizeArtWrapper();
       }
     })
-    $('.card .show-more').click(function() {
-        $(this).hide();
-        $(this).siblings('.card .short-bio').hide();
-        $(this).siblings('.card .close-bio').show();
-        $(this).siblings('.card .full-bio').show();
-      })
-    $('.card .close-bio').click(function() {
+    $('.card .show-more').click(function () {
+      $(this).hide();
+      $(this).siblings('.card .short-bio').hide();
+      $(this).siblings('.card .close-bio').show();
+      $(this).siblings('.card .full-bio').show();
+    })
+    $('.card .close-bio').click(function () {
       $(this).hide();
       $(this).siblings('.card .short-bio').show();
       $(this).siblings('.card .full-bio').hide();
       $(this).siblings('.card .show-more').show();
-  })
+    })
   });
 });
 

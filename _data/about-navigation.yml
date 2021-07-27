@@ -1,3 +1,5 @@
+- name: video
+  path: https://ether.cards/video
 - name: blog
   path: https://blog.ether.cards/
 - name: faq

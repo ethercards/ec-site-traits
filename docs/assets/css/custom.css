@@ -106,7 +106,8 @@ p + ul li {
   border-bottom: 2px solid var(--primary);
 }
 .navbar .nav-item.active .nav-link {
-  color: var(--primary);
+  /* color: var(--primary); */
+  border-bottom: 2px solid var(--primary);
 }
 .navbar,
 .navbar-nav,
