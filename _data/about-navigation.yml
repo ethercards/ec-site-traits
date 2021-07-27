@@ -1,4 +1,4 @@
-- name: video
+- name: videos
   path: https://ether.cards/video
 - name: blog
   path: https://blog.ether.cards/
