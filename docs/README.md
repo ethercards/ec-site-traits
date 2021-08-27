@@ -18,3 +18,10 @@ To get traits in json format
 jekyll build
 copy generated traits-json.html and rename file type to traits-json.json
 ```
+
+To deploy to burneth staging
+```
+jekyll build
+copy _site/docs to docs folder
+push to staging
+```

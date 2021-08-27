@@ -3,7 +3,7 @@ trait_id: 106
 type: random_edition
 name: Alpha Upgrade
 image: alpha-upgrade.png
-summary: The cardholder can replace this card with an Alpha card from the Ether Cards vault, chosen by the Ether Cards team.
+summary: The cardholder can replace this card with an Alpha card from the Ether Cards vault, randomly chosen by Chainlink's VRF.
 card_types: Founder
 category: Upgrade
 max_issuance: 50

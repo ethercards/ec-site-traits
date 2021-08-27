@@ -3,7 +3,7 @@ trait_id: 107
 type: random_edition
 name: OG Upgrade
 image: og-upgrade.png
-summary: The cardholder can replace this card with an OG card from the Ether Cards vault, chosen by the Ether Cards team.
+summary: The cardholder can replace this card with an OG card from the Ether Cards vault, randomly chosen by Chainlink's VRF.
 card_types: Founder & Alpha
 category: Upgrade
 max_issuance: 3
