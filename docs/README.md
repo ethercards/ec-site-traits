@@ -22,6 +22,6 @@ copy generated traits-json.html and rename file type to traits-json.json
 To deploy to burneth staging
 ```
 jekyll build
-copy _site/docs to docs folder
+copy the generated contents in _site into docs folder
 push to staging
 ```
