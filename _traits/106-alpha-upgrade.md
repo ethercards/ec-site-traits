@@ -16,6 +16,6 @@ layout: trait
 ---
 
 
-This trait lets you upgrade a Founder card into an Alpha. When you use this Trait, the Ether Cards team will select an Alpha card out of the vault and deliver it to you in exchange for your Founder card.
+This trait lets you upgrade a Founder card into an Alpha. When you use this Trait, Chainlink’s VRF will randomly select an Alpha card out of the vault and deliver it to you in exchange for your Founder card.
 
 <small>*Terms and conditions apply.</small>

@@ -16,6 +16,6 @@ layout: trait
 ---
 
 
-This trait lets you upgrade a Founder or Alpha card into an OG. When you use this Trait, the Ether Cards team will select an OG card out of the vault and deliver it to you in exchange for your Founder or Alpha card.
+This trait lets you upgrade a Founder or Alpha card into an OG. When you use this Trait, Chainlink’s VRF will randomly select an OG card out of the vault and deliver it to you in exchange for your Founder or Alpha card.
 
 <small>*Terms and conditions apply.</small>
