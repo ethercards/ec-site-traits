@@ -114,6 +114,23 @@ footer img {
   width: 40%;
 }
 
+footer a {
+  color: #9a989a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in-out, color 0.15s,
+    background-color 0.15s ease-in-out;
+}
+
+footer a:hover {
+  color: #be1fda;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 1;
+}
+
 .text-m-r {
   text-align: right !important;
 }
