@@ -1,7 +1,7 @@
 - name: video
   path: https://ether.cards/videos
 - name: blog
-  path: https://blog.ether.cards/
+  path: https://galaxisxyz.medium.com/
 - name: faq
   path: https://docs.ether.cards/faq.html
 # - name: team
